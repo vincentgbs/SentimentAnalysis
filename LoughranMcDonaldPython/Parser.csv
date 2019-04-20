@@ -1,0 +1,7 @@
+"file name,","file size,","number of words,","% positive,","% negative,","% uncertainty,","% litigious,","% modal-weak,","% modal moderate,","% modal strong,","% constraining,","# of alphabetic,","# of digits,","# of numbers,","avg # of syllables per word,","average word length,",vocabulary
+./example/positive2.txt,35,6,16.666666666666664,0.0,0.0,0.0,0.0,0.0,0.0,0.0,29,0,0,1.6666666666666667,4.833333333333333,6
+./example/positive3.txt,20,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15,0,0,1.3333333333333333,4.666666666666667,3
+./example/positive1.txt,24,4,25.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,20,0,0,1.25,5.0,4
+./example/negative1.txt,30,6,16.666666666666664,0.0,0.0,0.0,0.0,0.0,0.0,0.0,24,0,0,1.1666666666666667,4.0,6
+./example/negative2.txt,23,5,0.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0,18,0,0,1.0,3.6,5
+./example/negative3.txt,19,4,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15,0,0,1.0,3.75,4
