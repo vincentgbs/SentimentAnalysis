@@ -2,40 +2,16 @@
 #include <stdlib.h>
 #include <string.h>
 
-// #define STRLEN 100
-
-// typedef struct {
-//     char word[STRLEN];
-//     int seqNum;
-//     long int wordCount;
-//     double wordProp;
-//     double avgProp;
-//     double StdDev;
-//     int docCount;
-//     int neg;
-//     int pos;
-//     int uncert;
-//     int litig;
-//     int constrain;
-//     int superf;
-//     int interest;
-//     int modal;
-//     int irrVerb;
-//     int harvard;
-//     int syllab;
-//     char src[STRLEN];
-// } dictRow;
-
 int main() {
     int i, j; // iterators
-    char *row[20]; // max 20 columns
-    FILE* stream = fopen("LoughranMcDonald_MasterDictionary_2018.csv", "r"); // csv file
+    char *row[100]; // max review of 100 words
+    FILE* stream = fopen("reviews.txt", "r"); // csv file
     char line[1024];
     int max = 0; // max lines (only for testing purposes)
-    while (fgets(line, 1024, stream) && (max < 999))
+    while (fgets(line, 1024, stream) && (max < 5))
     {
         char* str = strdup(line); // duplicate line as string
-        char *p = strtok(str, ","); // split line on comas
+        char *p = strtok(str, " "); // split line on spaces
 
         i = 0;
         while (p != NULL)
@@ -46,8 +22,22 @@ int main() {
 
         printf("Row: ");
         for (j = 0; j < i; j++) {
-            printf("%s ", row[j]);
+            // if the word row[j] is in the dictionary, sum up its properties
+            double pos = 0.50; // positive
+            double neg = 0.50; // negative
+            // uncertainty
+            // litigious
+            // weak_modal
+            // moderate_modal
+            // strong_modal
+            // constraining
         }
+
+        double pos = 0.50;
+        // then divide by word count to get percentages
+        printf("The review: '%s', is %f positive, according to our analysis", str, pos);
+        // then compare to json rating "overall" to see success of S.A. predictions
+
         printf("\n");
 
         free(str); // deallocate memory from line pointer

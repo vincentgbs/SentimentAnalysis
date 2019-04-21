@@ -56,7 +56,6 @@ OUTPUT_FIELDS = ['file name,', 'file size,', 'number of words,', '% positive,', 
 
 lm_dictionary = LM.load_masterdictionary(MASTER_DICTIONARY_FILE, True)
 
-
 def main():
 
     f_out = open(OUTPUT_FILE, 'w')
@@ -122,5 +121,7 @@ def get_data(doc):
 
 if __name__ == '__main__':
     print('\n' + time.strftime('%c') + '\nGeneric_Parser.py\n')
+    # from pprint import pprint
+    # pprint(lm_dictionary);
     main()
     print('\n' + time.strftime('%c') + '\nNormal termination.')
