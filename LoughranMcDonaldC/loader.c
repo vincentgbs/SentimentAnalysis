@@ -3,28 +3,17 @@
 #include <string.h>
 
 // #define STRLEN 100
+// #define DICTLEN 86486 // 86487 with header
 
-// typedef struct {
-//     char word[STRLEN];
-//     int seqNum;
-//     long int wordCount;
-//     double wordProp;
-//     double avgProp;
-//     double StdDev;
-//     int docCount;
-//     int neg;
-//     int pos;
-//     int uncert;
-//     int litig;
-//     int constrain;
-//     int superf;
-//     int interest;
-//     int modal;
-//     int irrVerb;
-//     int harvard;
-//     int syllab;
-//     char src[STRLEN];
-// } dictRow;
+// Word[0]
+// Negative[7]
+// Positive[8]
+// Uncertainty[9]
+// Litigious[10]
+// Constraining[11]
+// Superfluous[12]
+// Interesting[13]
+// Modal[14]
 
 int main() {
     int i, j; // iterators
