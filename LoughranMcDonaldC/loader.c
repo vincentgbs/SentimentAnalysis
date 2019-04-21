@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-// #define STRLEN 100
-// #define DICTLEN 86486 // 86487 with header
+// #define WORDLEN 50
+// #define DICTLEN 86486 // 86487 lines with header
 
 // Word[0]
 // Negative[7]
