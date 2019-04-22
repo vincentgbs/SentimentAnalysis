@@ -26,14 +26,15 @@ void parseReview(char line[]) {
         p = strtok(NULL, " ");
     }
 
-    double pos = 0.50; // positive DEFAULT VALUE
-    double neg = 0.50; // negative DEFAULT VALUE
+    double pos = 0; // positive DEFAULT VALUE
+    double neg = 0; // negative DEFAULT VALUE
+    double stars = 2.5;
     printf("Review: ");
     for (j = 0; j < (i - 1); j++) {
         // if the word row[j] is in the dictionary, sum up its properties
         // printf("[%s]", row[j]);
         struct my_struct *word = find_record(row[j]);
-        if (word) {
+        if (word) { // null check
             printf("[%s] in dictionary\n", row[j]);
             if (word->Positive > 0) {
                 printf("[%s] is POSITIVE\n", row[j]);
@@ -47,8 +48,10 @@ void parseReview(char line[]) {
             // printf("[%s] not in dictionary\n", row[j]);
         }
     }
+    pos = pos/i;
+    neg = neg/i;
     // then divide by word count to get percentages
-    printf("This review is %f positive and %f negative, according to our analysis", pos, neg);
+    printf("This review is %f positive and %f negative, according to our analysis. The reviewer gave it %f stars.", pos, neg, stars);
     // then compare to json rating "overall" to see success of S.A. predictions
 
     printf("\n");
@@ -67,7 +70,7 @@ void getReviews(char file[]) {
 }
 
 int main() {
-    loadDictionary("../LoughranMcDonald_MasterDictionary_2018.csv", 99);
+    loadDictionary("../LoughranMcDonald_MasterDictionary_2018.csv", 9999);
     getReviews("reviews.txt");
     return 0;
 }
