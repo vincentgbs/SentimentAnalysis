@@ -60,4 +60,35 @@ void print_dictionary() {
     }
 }
 
+void loadDictionary(int max) {
+    int i, j; // iterators
+    char *row[20]; // max 20 columns
+    FILE* stream = fopen("LoughranMcDonald_MasterDictionary_2018.csv", "r"); // csv file
+    char line[512];
+    int ctr = 0; // max lines imported
+
+    while (fgets(line, 512, stream) && (ctr < max))
+    {
+        char* str = strdup(line); // duplicate line as string
+        char *p = strtok(str, ","); // split line on comas
+
+        i = 0;
+        while (p != NULL)
+        {
+            row[i++] = p;
+            p = strtok(NULL, ",");
+        }
+
+        add_record(row[0], atoi(row[7]), atoi(row[8]), atoi(row[9]),
+            atoi(row[10]), atoi(row[11]), atoi(row[12]), atoi(row[13]), atoi(row[14]));
+
+        free(str); // deallocate memory from line pointer
+        ctr++; // only for testing
+    }
+
+    // print_dictionary();
+    printf("Dictionary Loaded (%d words)\n", max);
+
+}
+
 #endif // DICTIONARY_H
