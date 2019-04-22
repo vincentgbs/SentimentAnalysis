@@ -1,35 +1,44 @@
+#include <stdio.h>   /* gets */
+#include <stdlib.h>  /* atoi, malloc */
+#include <string.h>  /* strcpy */
 #include "uthash.h"
 
-struct my_struct *users = NULL;    /* important! initialize to NULL */
+#define WORDLEN 50
+// #define DICTLEN 86486 // 86487 lines with header
 
 struct my_struct {
-    int id;                    /* key */
-    char name[10];
-    UT_hash_handle hh;         /* makes this structure hashable */
+    char id[WORDLEN]; // [0]
+    int Negative; // [7]
+    int Positive; // [8]
+    UT_hash_handle hh; /* makes this structure hashable */
 };
 
-void add_user(int user_id, char *name) {
+struct my_struct *dictionary = NULL;
+
+void add_record(char *word, int neg, int pos) {
     struct my_struct *s;
-    HASH_FIND_INT(users, &user_id, s);  /* id already in the hash? */
+
+    HASH_FIND_INT(dictionary, word, s);  /* id already in the hash? */
     if (s==NULL) {
-      s = (struct my_struct *)malloc(sizeof *s);
-      s->id = user_id;
-      HASH_ADD_INT( users, id, s );  /* id: name of key field */
+        s = (struct my_struct *)malloc(sizeof *s);
+        strcpy(s->id, word);
+        s->Negative = neg;
+        s->Positive = pos;
+        HASH_ADD_INT( dictionary, id, s );  /* id: name of key field */
     }
-    strcpy(s->name, name);
 }
 
-struct my_struct *find_user(int user_id) {
+struct my_struct *find_record(char *word) {
     struct my_struct *s;
 
-    HASH_FIND_INT( users, &user_id, s );  /* s: output pointer */
+    HASH_FIND_INT( dictionary, word, s );  /* s: output pointer */
     return s;
 }
 
-void print_users() {
+void print_dictionary() {
     struct my_struct *s;
 
-    for(s=users; s != NULL; s=s->hh.next) {
-        printf("user id %d: name %s\n", s->id, s->name);
+    for(s=dictionary; s != NULL; s=(struct my_struct*)(s->hh.next)) {
+        printf("word %s: pos %i neg %i\n", s->id, s->Positive, s->Negative);
     }
 }

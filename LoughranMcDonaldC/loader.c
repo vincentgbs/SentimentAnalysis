@@ -56,38 +56,36 @@ int main() {
     char line[512];
     int max = 0; // max lines (only for testing purposes)
 
-    // add_user(users);
+    while (fgets(line, 512, stream) && (max < 99))
+    {
+        char* str = strdup(line); // duplicate line as string
+        char *p = strtok(str, ","); // split line on comas
 
-    // while (fgets(line, 512, stream) && (max < 99))
-    // {
-    //     char* str = strdup(line); // duplicate line as string
-    //     char *p = strtok(str, ","); // split line on comas
-    //
-    //     i = 0;
-    //     while (p != NULL)
-    //     {
-    //         row[i++] = p;
-    //         p = strtok(NULL, " ");
-    //     }
-    //
-    //     // DictRow dictRow1 = {};
-    //     // dictRow1.WordPtr = dictRow1.Word[0];
-    //     // strcpy(dictRow1.WordPtr, row[0]);
-    //     // dictRow1.Negative = atoi(row[7]);
-    //     // dictRow1.Positive = atoi(row[8]);
-    //     // dictRow1.Uncertainty = atoi(row[9]);
-    //     // dictRow1.Litigious = atoi(row[10]);
-    //     // dictRow1.Constraining = atoi(row[11]);
-    //     // dictRow1.Superfluous = atoi(row[12]);
-    //     // dictRow1.Interesting = atoi(row[13]);
-    //     // dictRow1.Modal = atoi(row[14]);
-    //     // printf("Row: saved in dictRow1");
-    //     // printf("%s ; %d ; %d ", dictRow1.WordPtr, dictRow1.Negative, dictRow1.Positive);
-    //     // printf("\n");
-    //
-    //     free(str); // deallocate memory from line pointer
-    //     max++; // only for testing
-    // }
+        i = 0;
+        while (p != NULL)
+        {
+            row[i++] = p;
+            p = strtok(NULL, " ");
+        }
+
+        // DictRow dictRow1 = {};
+        // dictRow1.WordPtr = dictRow1.Word[0];
+        // strcpy(dictRow1.WordPtr, row[0]);
+        // dictRow1.Negative = atoi(row[7]);
+        // dictRow1.Positive = atoi(row[8]);
+        // dictRow1.Uncertainty = atoi(row[9]);
+        // dictRow1.Litigious = atoi(row[10]);
+        // dictRow1.Constraining = atoi(row[11]);
+        // dictRow1.Superfluous = atoi(row[12]);
+        // dictRow1.Interesting = atoi(row[13]);
+        // dictRow1.Modal = atoi(row[14]);
+        // printf("Row: saved in dictRow1");
+        // printf("%s ; %d ; %d ", dictRow1.WordPtr, dictRow1.Negative, dictRow1.Positive);
+        // printf("\n");
+
+        free(str); // deallocate memory from line pointer
+        max++; // only for testing
+    }
 
     printf("Done\n");
     return 0;
