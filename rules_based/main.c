@@ -19,6 +19,7 @@ int main() {
             p = strtok(NULL, " ");
         }
 
+        printf("%s (%s) (%s)\n", row[0], row[7], row[8]);
         add_record(row[0], atoi(row[7]), atoi(row[8]));
 
         free(str); // deallocate memory from line pointer
@@ -27,13 +28,13 @@ int main() {
 
     printf("Done Loading\n");
 
+    // print_dictionary();
+
     // struct my_struct *s = find_record("AARDVARK");
     // printf("word %s: pos %i neg %i\n", s->id, s->Positive, s->Negative);
     //
     // s = find_record("ABANDONMENT");
     // printf("word %s: pos %i neg %i\n", s->id, s->Positive, s->Negative);
-
-    print_dictionary();
 
     return 0;
 }
