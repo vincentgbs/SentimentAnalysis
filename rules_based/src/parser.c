@@ -8,6 +8,11 @@
 
 #define MAXWORDS 100
 
+void cleanToUpper(char word[]) {
+    // remove any non-alphanumeric characters
+    // change all letters to upper case
+}
+
 void parseReview(char line[]) {
     char* str = strdup(line); // duplicate line as string
     char *p = strtok(str, " "); // split line on spaces
@@ -26,19 +31,24 @@ void parseReview(char line[]) {
     printf("Review: ");
     for (j = 0; j < (i - 1); j++) {
         // if the word row[j] is in the dictionary, sum up its properties
-        printf("[%s]", row[j]);
-        // struct my_struct *word = find_record(row[j]);
-        // if (word->Positive > 0) {
-        //     printf("[%s] is positive", row[j]);
-        //     // pos++;
-        // }
-        // if (word->Positive > 0) {
-        //     printf("[%s] is negative", row[j]);
-        //     // neg++;
-        // }
+        // printf("[%s]", row[j]);
+        struct my_struct *word = find_record(row[j]);
+        if (word) {
+            printf("[%s] in dictionary\n", row[j]);
+            if (word->Positive > 0) {
+                printf("[%s] is positive\n", row[j]);
+                pos++;
+            }
+            if (word->Positive > 0) {
+                printf("[%s] is negative\n", row[j]);
+                neg++;
+            }
+        } else {
+            printf("[%s] not in dictionary\n", row[j]);
+        }
     }
     // then divide by word count to get percentages
-    printf("This review is %f positive, according to our analysis", pos);
+    printf("This review is %f positive and %f negative, according to our analysis", pos, neg);
     // then compare to json rating "overall" to see success of S.A. predictions
 
     printf("\n");
