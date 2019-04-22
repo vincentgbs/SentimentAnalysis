@@ -7,7 +7,7 @@ int main() {
     char line[512];
     int max = 0; // max lines (only for testing purposes)
 
-    while (fgets(line, 512, stream) && (max < 99))
+    while (fgets(line, 512, stream) && (max < 999))
     {
         char* str = strdup(line); // duplicate line as string
         char *p = strtok(str, ","); // split line on comas
@@ -16,11 +16,10 @@ int main() {
         while (p != NULL)
         {
             row[i++] = p;
-            p = strtok(NULL, " ");
+            p = strtok(NULL, ",");
         }
 
-        printf("%s (%s) (%s)\n", row[0], row[7], row[8]);
-        add_record(row[0], atoi(row[7]), atoi(row[8]));
+        add_record(row[0], atoi(row[7]), atoi(row[8]), atoi(row[9]));
 
         free(str); // deallocate memory from line pointer
         max++; // only for testing
@@ -28,7 +27,7 @@ int main() {
 
     printf("Done Loading\n");
 
-    // print_dictionary();
+    print_dictionary();
 
     // struct my_struct *s = find_record("AARDVARK");
     // printf("word %s: pos %i neg %i\n", s->id, s->Positive, s->Negative);
