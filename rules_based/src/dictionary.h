@@ -60,10 +60,10 @@ void print_dictionary() {
     }
 }
 
-void loadDictionary(int max) {
+void loadDictionary(char file[], int max) {
     int i, j; // iterators
     char *row[20]; // max 20 columns
-    FILE* stream = fopen("LoughranMcDonald_MasterDictionary_2018.csv", "r"); // csv file
+    FILE* stream = fopen(file, "r"); // csv file
     char line[512];
     int ctr = 0; // max lines imported
 

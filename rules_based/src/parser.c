@@ -57,7 +57,7 @@ void getReviews(char file[]) {
 }
 
 int main() {
-    // loadDictionary(99);
+    loadDictionary("../LoughranMcDonald_MasterDictionary_2018.csv", 99);
     getReviews("reviews.txt");
     return 0;
 }
