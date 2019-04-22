@@ -36,15 +36,15 @@ void parseReview(char line[]) {
         if (word) {
             printf("[%s] in dictionary\n", row[j]);
             if (word->Positive > 0) {
-                printf("[%s] is positive\n", row[j]);
+                printf("[%s] is POSITIVE\n", row[j]);
                 pos++;
             }
-            if (word->Positive > 0) {
-                printf("[%s] is negative\n", row[j]);
+            if (word->Negative > 0) {
+                printf("[%s] is NEGATIVE\n", row[j]);
                 neg++;
             }
         } else {
-            printf("[%s] not in dictionary\n", row[j]);
+            // printf("[%s] not in dictionary\n", row[j]);
         }
     }
     // then divide by word count to get percentages
