@@ -1,3 +1,6 @@
+#ifndef DICTIONARY_H
+#define DICTIONARY_H
+
 #include <stdio.h>   /* gets */
 #include <stdlib.h>  /* atoi, malloc */
 #include <string.h>  /* strcpy */
@@ -49,3 +52,5 @@ void print_dictionary() {
         printf("word %s: pos %d neg %d uncert %d\n", s->id, s->Positive, s->Negative, s->Uncertainty);
     }
 }
+
+#endif // DICTIONARY_H

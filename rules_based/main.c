@@ -1,4 +1,5 @@
 #include "dictionary.h"
+#include "parser.h"
 
 int main() {
     int i, j; // iterators
