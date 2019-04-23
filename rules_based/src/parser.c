@@ -16,7 +16,6 @@ void parseReview(char line[]) {
     int stars = atoi(row[0]); // rating
     double pos = 0; // positive DEFAULT VALUE
     double neg = 0; // negative DEFAULT VALUE
-    printf("Review: ");
     for (j = 1; j < i; j++) {
         struct my_struct *word = find_record(row[j]);
         if (word) { // null check
@@ -34,9 +33,12 @@ void parseReview(char line[]) {
         //     printf("[%s] not in dictionary\n", row[j]);
         // }
     }
-    printf("This review is %f positive and %f negative, according to our analysis. The reviewer gave it %d stars.", (pos/i), (neg/i), stars);
-
-    printf("\n");
+    if (pos != 0 || neg != 0) {
+        printf("This review is %f positive and %f negative, according to our analysis. The reviewer gave it %d stars. \n", (pos/i), (neg/i), stars);
+    }
+    // else {
+    //     printf("There was not enough data for our algorithm.\n");
+    // }
 
     free(str); // deallocate memory from line pointer
 }
@@ -46,10 +48,10 @@ void getReviews(char file[], int max) {
     char line[1024];
     int ctr = 0; // max reviews
 
-    while (fgets(line, 1024, stream) && ctr < max)
+    while (fgets(line, 1024, stream) && (ctr < max))
     {
         parseReview(line);
-        max++;
+        ctr++;
     }
 
 }
