@@ -65,6 +65,6 @@ void loadDictionary(char file[], int max) {
     }
 
     // print_dictionary();
-    printf("Dictionary Loaded (%d words)\n", max);
+    // printf("Dictionary Loaded (%d words)\n", max);
 
 }
