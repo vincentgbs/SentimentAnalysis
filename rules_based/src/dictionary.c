@@ -1,14 +1,14 @@
 #include "dictionary.h"
 
-struct my_struct *dictionary = NULL;
+struct dictRecord *dictionary = NULL;
 
 void add_record(char *word, int neg, int pos, int uncert,
     int litig, int constrain, int superf, int interest, int modal) {
-    struct my_struct *s;
+    struct dictRecord *s;
 
     HASH_FIND_INT(dictionary, word, s);  /* id already in the hash? */
     if (s==NULL) {
-        s = (struct my_struct *)malloc(sizeof *s);
+        s = (struct dictRecord *)malloc(sizeof *s);
         strcpy(s->id, word);
         s->Negative = neg;
         s->Positive = pos;
@@ -22,17 +22,17 @@ void add_record(char *word, int neg, int pos, int uncert,
     }
 }
 
-struct my_struct *find_record(char *word) {
-    struct my_struct *s;
+struct dictRecord *find_record(char *word) {
+    struct dictRecord *s;
 
     HASH_FIND_INT( dictionary, word, s );  /* s: output pointer */
     return s;
 }
 
 void print_dictionary() {
-    struct my_struct *s;
+    struct dictRecord *s;
 
-    for(s=dictionary; s != NULL; s=(struct my_struct*)(s->hh.next)) {
+    for(s=dictionary; s != NULL; s=(struct dictRecord*)(s->hh.next)) {
         printf("word %s: pos %d, neg %d, uncert %d, lit %d, mod %d \n",
             s->id, s->Positive, s->Negative, s->Uncertainty, s->Litigious, s->Modal);
     }
