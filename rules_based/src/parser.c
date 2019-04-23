@@ -1,5 +1,7 @@
 #include "parser.h"
+#include "export.h"
 
+// format assumed to be: 5|REVIEW TEXT
 void parseReview(char line[]) {
     char* str = strdup(line); // duplicate line as string
     char *p = strtok(str, "|"); // split rating from review
@@ -17,7 +19,7 @@ void parseReview(char line[]) {
     double pos = 0; // positive DEFAULT VALUE
     double neg = 0; // negative DEFAULT VALUE
     for (j = 1; j < i; j++) {
-        struct my_struct *word = find_record(row[j]);
+        struct dictRecord *word = find_record(row[j]);
         if (word) { // null check
             // printf("[%s] in dictionary\n", row[j]);
             if (word->Positive > 0) {
@@ -44,7 +46,7 @@ void parseReview(char line[]) {
 }
 
 void getReviews(char file[], int max) {
-    FILE* stream = fopen(file, "r"); // csv file
+    FILE* stream = fopen(file, "r"); // txt file
     char line[1024];
     int ctr = 0; // max reviews
 
