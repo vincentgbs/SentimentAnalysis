@@ -5,8 +5,8 @@
 
 #define MAXWORDS 100
 
-void parseReview(char line[]);
+void parseReview(char line[], char results[]);
 
-void getReviews(char file[], int max);
+void getReviews(char reviews[], char results[], int max);
 
 #endif // PARSER_H
