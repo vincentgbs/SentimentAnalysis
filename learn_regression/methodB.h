@@ -116,7 +116,7 @@ void predictOneReview(char *line, int ctr) {
   prediction = getPrediction(pointArray, avgpoint);
   struct r_p writeOut = createR_P(avgpoint, prediction);
   FILE* stream = fopen("results.txt", "a");
-  fprintf(stream, "%s: %d; %f; %f\n", row[1], writeOut.result, writeOut.prediction, writeOut.error);
+  fprintf(stream, "Review: %d; Prediction: %f; Error: %f\n", writeOut.result, writeOut.prediction, writeOut.error);
   free(str);
   fclose(stream);
 }
