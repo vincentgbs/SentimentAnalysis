@@ -1,5 +1,5 @@
 #include "parser.h"
-#include "export.h"
+// #include "export.h"
 
 // format assumed to be: 5|REVIEW TEXT
 void parseReview(char line[]) {
