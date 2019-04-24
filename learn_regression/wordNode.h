@@ -67,6 +67,16 @@ void printList(struct wordNode *n) {
   }
 }
 
+// void exportList(struct wordNode *n, char file[]) {
+//     struct wordNode *current = n;
+//     FILE* stream = fopen(file, "w");
+//     while (current != NULL) {
+//         fprintf(stream, "word: %s, point: %.2f, freq: %d\n", n->id, n->point, n->frequency);
+//         current = current->next;
+//     }
+//     fclose(stream);
+// }
+
 /* find a node base on its id
   input is char* and return node address */
 struct wordNode* findNode (struct wordNode *startNode, char *word) {
