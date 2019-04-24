@@ -1,6 +1,19 @@
 #include "parser.h"
 // #include "export.h"
 
+const char* const stopWords[] = {"ME", "MY", "MYSELF", "WE", "OUR", "OURS", "OURSELVES", "YOU", "YOUR", "YOURS",
+"YOURSELF", "YOURSELVES", "HE", "HIM", "HIS", "HIMSELF", "SHE", "HER", "HERS", "HERSELF",
+"IT", "ITS", "ITSELF", "THEY", "THEM", "THEIR", "THEIRS", "THEMSELVES", "WHAT", "WHICH",
+"WHO", "WHOM", "THIS", "THAT", "THESE", "THOSE", "AM", "IS", "ARE", "WAS", "WERE", "BE",
+"BEEN", "BEING", "HAVE", "HAS", "HAD", "HAVING", "DO", "DOES", "DID", "DOING", "AN",
+"THE", "AND", "BUT", "IF", "OR", "BECAUSE", "AS", "UNTIL", "WHILE", "OF", "AT", "BY",
+"FOR", "WITH", "ABOUT", "BETWEEN", "INTO", "THROUGH", "DURING", "BEFORE",
+"AFTER", "ABOVE", "BELOW", "TO", "FROM", "UP", "DOWN", "IN", "OUT", "ON", "OFF", "OVER",
+"UNDER", "AGAIN", "FURTHER", "THEN", "ONCE", "HERE", "THERE", "WHEN", "WHERE", "WHY",
+"HOW", "ALL", "ANY", "BOTH", "EACH", "FEW", "MORE", "MOST", "OTHER", "SOME", "SUCH",
+"NO", "NOR", "NOT", "ONLY", "OWN", "SAME", "SO", "THAN", "TOO", "VERY", "CAN",
+"JUST", "SHOULD", "NOW"};
+
 // format assumed to be: 5|REVIEW TEXT
 void parseReview(char line[]) {
     char* str = strdup(line); // duplicate line as string
