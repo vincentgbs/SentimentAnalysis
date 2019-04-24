@@ -8,8 +8,8 @@
 
 #define MAXWORDS 200
 
-void parseReviewb(char *); // add all words in review to wordNodeArray
-void getReviewsb(char file[], int max); // LOOP
+void parseReviews(char *); // add all words in review to wordNodeArray
+void importReviews(char file[], int max, int start); // LOOP
 void reviewToArray(char *line); // find each word in LL and average the points
 void fileToArray (char file[], int max); // LOOP
 void predictOneReview(char *line, int ctr); //
@@ -18,10 +18,8 @@ void predictAllReview (char file[], int max); // LOOP
 struct wordNode wordNodeArray[200000] = {0};
 int w = 0;
 
-
-
-void parseReviewb(char *line) {
-  char* str = strdup(line); // duplicate line as string
+void parseReviews(char *line) {
+    char* str = strdup(line); // duplicate line as string
     char *p = strtok(str, "|"); // split rating from review
     char *row[MAXWORDS]; // max review of MAXWORDS words
     int i = 0, j;
@@ -32,30 +30,32 @@ void parseReviewb(char *line) {
         i++;
         p = strtok(NULL, " ");
     }
-    int stars = atoi(row[0]);
+    int stars = atoi(row[0]); // reviewer rating
 
     for (j = 1; j < i; j++) {
-      wordNodeArray[w++] = createNode(row[j], stars);
-      addNode(&(wordNodeArray[w-1]));
+        wordNodeArray[w++] = createNode(row[j], stars);
+        addNode(&(wordNodeArray[w-1]));
     }
-  free(str);
+    free(str);
 }
 
-void getReviewsb(char file[], int max) {
+void importReviews(char file[], int max, int start) {
    FILE* stream = fopen(file, "r"); // csv file
    char line[1024];
    int ctr = 0; // max reviews
-
-   while (fgets(line, 1024, stream) && (ctr < max))
+   while (fgets(line, 1024, stream) && (ctr < start)) {
+       ctr++; // get reviews in a range
+   }
+   while (fgets(line, 1024, stream) && (ctr < (max + start)))
    {
-      parseReviewb(line);
+      parseReviews(line);
       ctr++;
    }
    fclose(stream);
 }
 
 void reviewToArray(char *line) {
-  char* str = strdup(line); // duplicate line as string
+    char* str = strdup(line); // duplicate line as string
     char *p = strtok(str, "|"); // split rating from review
     char *row[MAXWORDS]; // max review of MAXWORDS words
     int i = 0, j;
@@ -116,7 +116,7 @@ void predictOneReview(char *line, int ctr) {
   prediction = getPrediction(pointArray, avgpoint);
   struct r_p writeOut = createR_P(avgpoint, prediction);
   FILE* stream = fopen("results.txt", "a");
-  fprintf(stream, "%d;%f;%f\n", writeOut.result, writeOut.prediction, writeOut.error);
+  fprintf(stream, "%s: %d; %f; %f\n", row[1], writeOut.result, writeOut.prediction, writeOut.error);
   free(str);
   fclose(stream);
 }
