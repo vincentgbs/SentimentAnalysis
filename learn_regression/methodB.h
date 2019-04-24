@@ -122,7 +122,7 @@ void predictOneReview(char *line, int ctr) {
 }
 
 void predictAllReview (char file[], int max) {
-     FILE* stream = fopen(file, "r"); // csv file
+    FILE* stream = fopen(file, "r"); // csv file
    char line[1024];
    int ctr = 0; // max reviews
 
@@ -133,17 +133,5 @@ void predictAllReview (char file[], int max) {
    }
    fclose(stream);
 }
-
-/*export result to a file*/
-// void exportResult (char file[], int max) {
-//
-//   FILE* stream = fopen(file, "w+");
-//   int i;
-//   for (i = 0; i < max; i++) {
-//     fprintf(stream, "%d;%f;%f\n", r_pArray[i].result, r_pArray[i].prediction, r_pArray[i].error);
-//   }
-//   fclose(stream);
-// }
-
 
 #endif
