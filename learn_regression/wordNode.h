@@ -51,13 +51,11 @@ void addNode (struct wordNode *n) {
   }
 }
 
-
 void printNode(struct wordNode *n) {
   if (n == NULL) {
     printf("(NULL)");
-  }
-  else{
-    printf("id: %s, point: %.2f, f: %d\n", n->id, n->point, n->frequency);
+  } else {
+    printf("word: %s, point: %.2f, freq: %d\n", n->id, n->point, n->frequency);
   }
 }
 
@@ -78,14 +76,12 @@ struct wordNode* findNode (struct wordNode *startNode, char *word) {
   while (strcmp(word,current->id) > 0) {
     current = current->next;
   }
-
-  /*when word == current*/
+  /* when word == current */
   if (strcmp(word,current->id) == 0) {
     return current;
-  }
-  /*when word is not in the list*/
-  else {
+  } else { /* when word is not in the list */
     return NULL;
   }
 }
+
 #endif // WORDNODE_H

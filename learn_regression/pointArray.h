@@ -26,7 +26,7 @@ void printDiff ();
 
 struct pointPeriod pointArray[500] = {0};
 
-/* Create array of points*/
+/* Create array of scores */
 void initializePointArray (struct pointPeriod array[], int arrayLength) {
   int i = 0;
   for (i = 0; i < arrayLength; i++) {
@@ -39,7 +39,8 @@ void initializePointArray (struct pointPeriod array[], int arrayLength) {
 void updatePointPeriod (float avgPoint, float actualRate) {
   int position = (int) (truncateTo2Decimals (avgPoint) * 100);
   if (position > 500) {
-    printf("updatePointPeriod error");
+      printf("Error updating point!\n");
+      exit(1);
   }
   pointArray[position].actualRate = (pointArray[position].actualRate * pointArray[position].frequency + actualRate) / (pointArray[position].frequency + 1);
   pointArray[position].frequency++;
