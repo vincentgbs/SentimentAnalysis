@@ -13,5 +13,7 @@ int main () {
     fileToArray("EDITED_REVIEWS.txt", 200);
     actualRateRegression(pointArray, 500);
     predictAllReview("EDITED_REVIEWS.txt", 700);
+    // printList(wordNodeArray);
+    // printPointPeriodArray(pointArray, 500);
     return 0;
 }
