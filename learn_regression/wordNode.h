@@ -46,7 +46,7 @@ void addNode (struct wordNode *n) {
     }
     else {
       trail->next = n;
-      n->next = current;      
+      n->next = current;
     }
   }
 }
