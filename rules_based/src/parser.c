@@ -1,5 +1,4 @@
 #include "parser.h"
-// #include "export.h"
 
 const char* const stopWords[] = {"ME", "MY", "MYSELF", "WE", "OUR", "OURS", "OURSELVES", "YOU", "YOUR", "YOURS",
 "YOURSELF", "YOURSELVES", "HE", "HIM", "HIS", "HIMSELF", "SHE", "HER", "HERS", "HERSELF",
