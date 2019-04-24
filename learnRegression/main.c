@@ -14,7 +14,7 @@ int main () {
   initializePointArray(pointArray, 500);
   fileToArray("7.txt", 2000);
   actualRateRegression(pointArray, 500);
-  predictAllReview ("7.txt", 10000);
-  exportResult("bResult.csv", 10000);
+  predictAllReview ("7.txt", 500);
+  exportResult("bResult.csv", 500);
   return 0;
 }
