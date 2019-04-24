@@ -8,12 +8,12 @@
 
 #define MAXWORDS 200
 
-void parseReviewb(char *);
-void getReviewsb(char file[], int max);
-void reviewToArray(char *line);
-void fileToArray (char file[], int max);
-void predictOneReview(char *line, int ctr);
-void predictAllReview (char file[], int max);
+void parseReviewb(char *); // add all words in review to wordNodeArray
+void getReviewsb(char file[], int max); // LOOP
+void reviewToArray(char *line); // find each word in LL and average the points
+void fileToArray (char file[], int max); // LOOP
+void predictOneReview(char *line, int ctr); //
+void predictAllReview (char file[], int max); // LOOP
 
 struct wordNode wordNodeArray[200000] = {0};
 int w = 0;
@@ -114,8 +114,11 @@ void predictOneReview(char *line, int ctr) {
   }
   avgpoint = truncateTo2Decimals(avgpoint/j);
   prediction = getPrediction(pointArray, avgpoint);
-  r_pArray[ctr] = createR_P(avgpoint, prediction);
+  struct r_p writeOut = createR_P(avgpoint, prediction);
+  FILE* stream = fopen("results.txt", "a");
+  fprintf(stream, "%d;%f;%f\n", writeOut.result, writeOut.prediction, writeOut.error);
   free(str);
+  fclose(stream);
 }
 
 void predictAllReview (char file[], int max) {
@@ -132,15 +135,15 @@ void predictAllReview (char file[], int max) {
 }
 
 /*export result to a file*/
-void exportResult (char file[], int max) {
-
-  FILE* stream = fopen(file, "w+");
-  int i;
-  for (i = 0; i < max; i++) {
-    fprintf(stream, "%d;%f;%f\n", r_pArray[i].result, r_pArray[i].prediction, r_pArray[i].error);
-  }
-  fclose(stream);
-}
+// void exportResult (char file[], int max) {
+//
+//   FILE* stream = fopen(file, "w+");
+//   int i;
+//   for (i = 0; i < max; i++) {
+//     fprintf(stream, "%d;%f;%f\n", r_pArray[i].result, r_pArray[i].prediction, r_pArray[i].error);
+//   }
+//   fclose(stream);
+// }
 
 
 #endif

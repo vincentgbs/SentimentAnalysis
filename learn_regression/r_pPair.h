@@ -11,7 +11,7 @@ struct r_p {
   float error;
 };
 
-struct r_p r_pArray[MAXRESULTPREDICTION] = {0};
+// struct r_p r_pArray[MAXRESULTPREDICTION] = {0};
 
 struct r_p createR_P (int result, float prediction) {
   struct r_p a;
