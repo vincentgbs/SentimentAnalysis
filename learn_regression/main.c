@@ -5,7 +5,7 @@
 #include "pointArray.h"
 #include "methodB.h"
 
-#define TRAIN
+// #define TRAIN
 
 int main () {
     importReviews("EDITED_REVIEWS.txt", 200, 0);
