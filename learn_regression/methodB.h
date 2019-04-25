@@ -2,9 +2,9 @@
 #ifndef METHODB_H
 #define METHODB_H
 
+#include <math.h>
 #include "pointArray.h"
 #include "wordNode.h"
-#include "r_pPair.h"
 
 #define MAXWORDS 200
 
@@ -114,9 +114,9 @@ void predictOneReview(char *line, int ctr) {
   }
   avgpoint = truncateTo2Decimals(avgpoint/j);
   prediction = getPrediction(pointArray, avgpoint);
-  struct r_p writeOut = createR_P(avgpoint, prediction);
+  float error = fabs(prediction - stars);
   FILE* stream = fopen("results.txt", "a");
-  fprintf(stream, "Review: %d; Prediction: %f; Error: %f\n", writeOut.result, writeOut.prediction, writeOut.error);
+  fprintf(stream, "Review: %d; Prediction: %f; Error: %f\n", stars, prediction, error);
   free(str);
   fclose(stream);
 }

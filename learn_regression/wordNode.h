@@ -40,7 +40,7 @@ void addNode (struct wordNode *n) {
       trail = current;
       current = current->next;
     }
-
+    /* If node already exists, increase freq and update point avg */
     if ((current != NULL) && (strcmp((*n).id,(*current).id) == 0)) {
       (*current).point = ((*current).point * (*current).frequency + (*n).point) / ++(*current).frequency;
     }
