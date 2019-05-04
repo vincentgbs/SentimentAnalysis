@@ -34,7 +34,7 @@ void print_dictionary() {
 
     for(s=dictionary; s != NULL; s=(struct dictRecord*)(s->hh.next)) {
         printf("word %s: pos %d, neg %d, uncert %d, lit %d, mod %d \n",
-            s->id, s->Positive, s->Negative, s->Uncertainty, s->Litigious, s->Modal);
+        s->id, s->Positive, s->Negative, s->Uncertainty, s->Litigious, s->Modal);
     }
 }
 
