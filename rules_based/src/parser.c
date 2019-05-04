@@ -3,7 +3,7 @@
 #define MAXLINELENGTH 1024
 #define MAXWORDS 128
 // RESULTS 1 = export to csv, RESULTS 0 = write to console
-#define RESULTS 1
+#define RESULTS 0
 
 const char* const stopwords[] = {"ME", "MY", "MYSELF", "WE", "OUR", "OURS", "OURSELVES", "YOU", "YOUR", "YOURS",
 "YOURSELF", "YOURSELVES", "HE", "HIM", "HIS", "HIMSELF", "SHE", "HER", "HERS", "HERSELF",
@@ -17,6 +17,8 @@ const char* const stopwords[] = {"ME", "MY", "MYSELF", "WE", "OUR", "OURS", "OUR
 "HOW", "ALL", "ANY", "BOTH", "EACH", "FEW", "MORE", "MOST", "OTHER", "SOME", "SUCH",
 "NO", "NOR", "NOT", "ONLY", "OWN", "SAME", "SO", "THAN", "TOO", "VERY", "CAN",
 "JUST", "SHOULD", "NOW"};
+float deviation = 0; // deviation squared sum
+int predictions; // number of predictions made
 
 float rulePrediction(int pos, int neg) {
     if (pos - neg > 1) {
@@ -34,13 +36,8 @@ float rulePrediction(int pos, int neg) {
 void parseReview(char line[], char results[]) {
     char* str = strdup(line); // duplicate line as string
     char *p = strtok(str, "|"); // split rating from review
-    float pos, neg, pred, error;
-
-    // check if a review is longer than MAXLINELENGTH
-    // if () {
-    //     //
-    // }
     char *row[MAXWORDS]; // review of MAXWORDS words
+    float pos, neg, pred, error;
     int i = 0, j, stars;
 
     FILE *output = fopen(results, "a");
@@ -71,14 +68,17 @@ void parseReview(char line[], char results[]) {
             }
         }
     }
+
     if (pos != 0 || neg != 0) {
+        pred = rulePrediction(pos, neg);
+        error = pred - stars;
         if (RESULTS == 0) {
-            printf("This review is %f positive and %f negative, according to our analysis. The reviewer gave it %d stars. \n", (pos/i), (neg/i), stars);
+            printf("This review is %f positive and %f negative. Our prediction was %f stars. The reviewer gave it %d stars. \n", (pos/i), (neg/i), pred, stars);
         } else if (RESULTS == 1) {
-            pred = rulePrediction(pos, neg);
-            error = pred - stars;
             fprintf(output, "%f, %f, %f, %d, %f\n", pos, neg, pred, stars, error);
         }
+        deviation += (error * error);
+        predictions++;
     } // else {
     //     printf("There was not enough data for our algorithm.\n");
     // }
@@ -102,5 +102,7 @@ void getReviews(char reviews[], char results[], int max) {
         parseReview(line, results);
         ctr++;
     }
+
+    printf("The standard error for predictions was %f\n", (deviation/predictions));
 
 }
