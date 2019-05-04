@@ -17,6 +17,8 @@ void predictAllReview (char file[], int max); // LOOP
 
 struct wordNode wordNodeArray[200000] = {0};
 int w = 0;
+float deviation = 0; // deviation squared sum
+int predictions = 0; // number of predictions made
 
 void parseReviews(char *line) {
     char* str = strdup(line); // duplicate line as string
@@ -93,45 +95,55 @@ void fileToArray (char file[], int max) {
 }
 
 void predictOneReview(char *line, int ctr) {
-  char* str = strdup(line); // duplicate line as string
-  char *p = strtok(str, "|"); // split rating from review
-  char *row[MAXWORDS]; // max review of MAXWORDS words
-  int i = 0, j;
-  float avgpoint = 0;
-  float prediction = 0;
+    char* str = strdup(line); // duplicate line as string
+    char *p = strtok(str, "|"); // split rating from review
+    char *row[MAXWORDS]; // max review of MAXWORDS words
+    int i = 0, j;
+    float avgpoint = 0;
+    float prediction = 0;
 
-  while ((p != NULL) && (i < MAXWORDS))
-  { // continue splitting line on spaces
-      row[i] = p;
-      i++;
-      p = strtok(NULL, " ");
-  }
-  int stars = atoi(row[0]);
-  for (j = 1; j < i; j++) {
-    struct wordNode *node = findNode(HEAD, row[j]);
-    if (node != NULL)
-      avgpoint += node->point;
-  }
-  avgpoint = truncateTo2Decimals(avgpoint/j);
-  prediction = getPrediction(pointArray, avgpoint);
-  float error = fabs(prediction - stars);
-  FILE* stream = fopen("results.txt", "a");
-  fprintf(stream, "Review: %d; Prediction: %f; Error: %f\n", stars, prediction, error);
-  free(str);
-  fclose(stream);
+    while ((p != NULL) && (i < MAXWORDS))
+    { // continue splitting line on spaces
+        row[i] = p;
+        i++;
+        p = strtok(NULL, " ");
+    }
+
+    int stars = atoi(row[0]);
+    if (stars >= 1 && stars <= 5) {
+        for (j = 1; j < i; j++) {
+            struct wordNode *node = findNode(HEAD, row[j]);
+            if (node != NULL)
+            avgpoint += node->point;
+        }
+        avgpoint = truncateTo2Decimals(avgpoint/j);
+        prediction = getPrediction(pointArray, avgpoint);
+        float error = fabs(prediction - stars);
+        FILE* stream = fopen("results.txt", "a");
+        fprintf(stream, "%d, %f, %f\n", stars, prediction, error);
+        free(str);
+        fclose(stream);
+
+        deviation += fabsf(error);
+        predictions++;
+    } // else { /* ignore line */ }
 }
 
 void predictAllReview (char file[], int max) {
     FILE* stream = fopen(file, "r"); // csv file
-   char line[1024];
-   int ctr = 0; // max reviews
+    char line[1024];
+    int ctr = 0; // max reviews
 
-   while (fgets(line, 1024, stream) && (ctr < max))
-   {
-      predictOneReview(line, ctr);
-      ctr++;
-   }
-   fclose(stream);
+    FILE* write = fopen("results.txt", "w");
+    fprintf(write, "Reviewer Rating, Prediction, Error\n");
+    fclose(write); // clear out previous results
+    while (fgets(line, 1024, stream) && (ctr < max))
+    {
+       predictOneReview(line, ctr);
+       ctr++;
+    }
+
+    printf("The average margin of error for predictions was %f\n", (deviation/predictions));
 }
 
 #endif

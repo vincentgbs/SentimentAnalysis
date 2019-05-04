@@ -1,1400 +1,535 @@
-Review: 2; Prediction: 3.580000; Error: 1.580000
-Review: 5; Prediction: 4.400000; Error: 0.600000
-Review: 1; Prediction: 3.150000; Error: 2.150000
-Review: 4; Prediction: 4.080000; Error: 0.080000
-Review: 5; Prediction: 4.480000; Error: 0.520000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.620000; Error: 0.380000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 3; Prediction: 3.870000; Error: 0.870000
-Review: 3; Prediction: 4.100000; Error: 1.100000
-Review: 5; Prediction: 4.350000; Error: 0.650000
-Review: 3; Prediction: 4.040000; Error: 1.040000
-Review: 4; Prediction: 4.140000; Error: 0.140000
-Review: 4; Prediction: 4.250000; Error: 0.250000
-Review: 3; Prediction: 3.830000; Error: 0.830000
-Review: 3; Prediction: 3.810000; Error: 0.810000
-Review: 5; Prediction: 4.400000; Error: 0.600000
-Review: 2; Prediction: 3.110000; Error: 1.110000
-Review: 3; Prediction: 4.050000; Error: 1.050000
-Review: 3; Prediction: 4.030000; Error: 1.030000
-Review: 5; Prediction: 4.210000; Error: 0.790000
-Review: 5; Prediction: 4.380000; Error: 0.620000
-Review: 3; Prediction: 4.000000; Error: 1.000000
-Review: 5; Prediction: 4.170000; Error: 0.830000
-Review: 5; Prediction: 4.110000; Error: 0.890000
-Review: 5; Prediction: 4.440000; Error: 0.560000
-Review: 3; Prediction: 3.860000; Error: 0.860000
-Review: 3; Prediction: 4.010000; Error: 1.010000
-Review: 3; Prediction: 4.160000; Error: 1.160000
-Review: 5; Prediction: 4.420000; Error: 0.580000
-Review: 5; Prediction: 4.390000; Error: 0.610000
-Review: 5; Prediction: 4.170000; Error: 0.830000
-Review: 3; Prediction: 4.050000; Error: 1.050000
-Review: 1; Prediction: 3.240000; Error: 2.240000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 1; Prediction: 3.270000; Error: 2.270000
-Review: 5; Prediction: 4.380000; Error: 0.620000
-Review: 5; Prediction: 4.600000; Error: 0.400000
-Review: 22; Prediction: 0.000000; Error: 22.000000
-Review: 3; Prediction: 4.020000; Error: 1.020000
-Review: 5; Prediction: 4.500000; Error: 0.500000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 4; Prediction: 4.190000; Error: 0.190000
-Review: 5; Prediction: 4.520000; Error: 0.480000
-Review: 1; Prediction: 3.750000; Error: 2.750000
-Review: 5; Prediction: 4.350000; Error: 0.650000
-Review: 4; Prediction: 4.270000; Error: 0.270000
-Review: 3; Prediction: 3.880000; Error: 0.880000
-Review: 5; Prediction: 4.350000; Error: 0.650000
-Review: 5; Prediction: 4.540000; Error: 0.460000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.440000; Error: 0.560000
-Review: 4; Prediction: 4.300000; Error: 0.300000
-Review: 5; Prediction: 4.420000; Error: 0.580000
-Review: 5; Prediction: 4.330000; Error: 0.670000
-Review: 5; Prediction: 4.390000; Error: 0.610000
-Review: 5; Prediction: 4.380000; Error: 0.620000
-Review: 5; Prediction: 4.460000; Error: 0.540000
-Review: 5; Prediction: 4.410000; Error: 0.590000
-Review: 5; Prediction: 4.350000; Error: 0.650000
-Review: 5; Prediction: 4.440000; Error: 0.560000
-Review: 5; Prediction: 4.420000; Error: 0.580000
-Review: 2; Prediction: 3.630000; Error: 1.630000
-Review: 5; Prediction: 4.570000; Error: 0.430000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.590000; Error: 0.410000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.530000; Error: 0.470000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.510000; Error: 0.490000
-Review: 1; Prediction: 3.560000; Error: 2.560000
-Review: 5; Prediction: 4.410000; Error: 0.590000
-Review: 4; Prediction: 4.350000; Error: 0.350000
-Review: 5; Prediction: 4.370000; Error: 0.630000
-Review: 5; Prediction: 4.560000; Error: 0.440000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 4; Prediction: 4.280000; Error: 0.280000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.670000; Error: 0.330000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.530000; Error: 0.470000
-Review: 5; Prediction: 4.510000; Error: 0.490000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.460000; Error: 0.540000
-Review: 5; Prediction: 4.370000; Error: 0.630000
-Review: 5; Prediction: 4.500000; Error: 0.500000
-Review: 5; Prediction: 4.460000; Error: 0.540000
-Review: 5; Prediction: 4.530000; Error: 0.470000
-Review: 1; Prediction: 0.000000; Error: 1.000000
-Review: 5; Prediction: 4.520000; Error: 0.480000
-Review: 5; Prediction: 4.390000; Error: 0.610000
-Review: 5; Prediction: 4.460000; Error: 0.540000
-Review: 5; Prediction: 4.380000; Error: 0.620000
-Review: 4; Prediction: 4.270000; Error: 0.270000
-Review: 5; Prediction: 4.550000; Error: 0.450000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.210000; Error: 0.790000
-Review: 5; Prediction: 4.560000; Error: 0.440000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.310000; Error: 0.690000
-Review: 5; Prediction: 4.380000; Error: 0.620000
-Review: 4; Prediction: 4.110000; Error: 0.110000
-Review: 5; Prediction: 4.210000; Error: 0.790000
-Review: 5; Prediction: 4.480000; Error: 0.520000
-Review: 4; Prediction: 4.170000; Error: 0.170000
-Review: 5; Prediction: 4.360000; Error: 0.640000
-Review: 4; Prediction: 4.310000; Error: 0.310000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.610000; Error: 0.390000
-Review: 5; Prediction: 4.360000; Error: 0.640000
-Review: 5; Prediction: 4.380000; Error: 0.620000
-Review: 5; Prediction: 4.380000; Error: 0.620000
-Review: 5; Prediction: 4.520000; Error: 0.480000
-Review: 4; Prediction: 4.250000; Error: 0.250000
-Review: 5; Prediction: 4.310000; Error: 0.690000
-Review: 5; Prediction: 4.480000; Error: 0.520000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.640000; Error: 0.360000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 4; Prediction: 4.190000; Error: 0.190000
-Review: 5; Prediction: 4.580000; Error: 0.420000
-Review: 5; Prediction: 4.420000; Error: 0.580000
-Review: 5; Prediction: 4.280000; Error: 0.720000
-Review: 5; Prediction: 4.360000; Error: 0.640000
-Review: 4; Prediction: 4.280000; Error: 0.280000
-Review: 5; Prediction: 4.590000; Error: 0.410000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.400000; Error: 0.600000
-Review: 5; Prediction: 4.500000; Error: 0.500000
-Review: 3; Prediction: 3.890000; Error: 0.890000
-Review: 5; Prediction: 4.360000; Error: 0.640000
-Review: 3; Prediction: 3.990000; Error: 0.990000
-Review: 2; Prediction: 3.890000; Error: 1.890000
-Review: 3; Prediction: 3.970000; Error: 0.970000
-Review: 3; Prediction: 3.840000; Error: 0.840000
-Review: 4; Prediction: 4.230000; Error: 0.230000
-Review: 5; Prediction: 4.420000; Error: 0.580000
-Review: 5; Prediction: 4.420000; Error: 0.580000
-Review: 4; Prediction: 4.150000; Error: 0.150000
-Review: 3; Prediction: 3.990000; Error: 0.990000
-Review: 4; Prediction: 4.230000; Error: 0.230000
-Review: 5; Prediction: 4.270000; Error: 0.730000
-Review: 4; Prediction: 4.230000; Error: 0.230000
-Review: 4; Prediction: 4.060000; Error: 0.060000
-Review: 3; Prediction: 4.030000; Error: 1.030000
-Review: 5; Prediction: 4.400000; Error: 0.600000
-Review: 5; Prediction: 4.320000; Error: 0.680000
-Review: 4; Prediction: 4.230000; Error: 0.230000
-Review: 5; Prediction: 4.270000; Error: 0.730000
-Review: 5; Prediction: 4.280000; Error: 0.720000
-Review: 5; Prediction: 4.390000; Error: 0.610000
-Review: 3; Prediction: 4.060000; Error: 1.060000
-Review: 4; Prediction: 4.250000; Error: 0.250000
-Review: 5; Prediction: 4.420000; Error: 0.580000
-Review: 4; Prediction: 4.170000; Error: 0.170000
-Review: 5; Prediction: 4.340000; Error: 0.660000
-Review: 3; Prediction: 3.830000; Error: 0.830000
-Review: 5; Prediction: 4.320000; Error: 0.680000
-Review: 4; Prediction: 4.210000; Error: 0.210000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 1; Prediction: 3.090000; Error: 2.090000
-Review: 4; Prediction: 4.040000; Error: 0.040000
-Review: 4; Prediction: 4.080000; Error: 0.080000
-Review: 4; Prediction: 4.210000; Error: 0.210000
-Review: 4; Prediction: 4.230000; Error: 0.230000
-Review: 5; Prediction: 4.420000; Error: 0.580000
-Review: 5; Prediction: 4.300000; Error: 0.700000
-Review: 5; Prediction: 4.510000; Error: 0.490000
-Review: 4; Prediction: 4.320000; Error: 0.320000
-Review: 5; Prediction: 4.210000; Error: 0.790000
-Review: 5; Prediction: 4.340000; Error: 0.660000
-Review: 5; Prediction: 4.460000; Error: 0.540000
-Review: 5; Prediction: 4.480000; Error: 0.520000
-Review: 5; Prediction: 4.420000; Error: 0.580000
-Review: 1; Prediction: 3.380000; Error: 2.380000
-Review: 5; Prediction: 4.340000; Error: 0.660000
-Review: 5; Prediction: 4.190000; Error: 0.810000
-Review: 5; Prediction: 4.520000; Error: 0.480000
-Review: 5; Prediction: 4.320000; Error: 0.680000
-Review: 5; Prediction: 4.440000; Error: 0.560000
-Review: 5; Prediction: 4.300000; Error: 0.700000
-Review: 5; Prediction: 4.440000; Error: 0.560000
-Review: 5; Prediction: 4.460000; Error: 0.540000
-Review: 5; Prediction: 4.320000; Error: 0.680000
-Review: 5; Prediction: 4.300000; Error: 0.700000
-Review: 5; Prediction: 4.350000; Error: 0.650000
-Review: 5; Prediction: 4.370000; Error: 0.630000
-Review: 5; Prediction: 3.850000; Error: 1.150000
-Review: 4; Prediction: 3.510000; Error: 0.490000
-Review: 5; Prediction: 3.460000; Error: 1.540000
-Review: 5; Prediction: 3.730000; Error: 1.270000
-Review: 5; Prediction: 3.660000; Error: 1.340000
-Review: 5; Prediction: 3.680000; Error: 1.320000
-Review: 5; Prediction: 3.940000; Error: 1.060000
-Review: 5; Prediction: 3.880000; Error: 1.120000
-Review: 5; Prediction: 3.160000; Error: 1.840000
-Review: 5; Prediction: 4.020000; Error: 0.980000
-Review: 5; Prediction: 4.050000; Error: 0.950000
-Review: 5; Prediction: 3.680000; Error: 1.320000
-Review: 4; Prediction: 3.340000; Error: 0.660000
-Review: 4; Prediction: 3.470000; Error: 0.530000
-Review: 5; Prediction: 3.170000; Error: 1.830000
-Review: 4; Prediction: 3.440000; Error: 0.560000
-Review: 5; Prediction: 3.470000; Error: 1.530000
-Review: 5; Prediction: 3.810000; Error: 1.190000
-Review: 5; Prediction: 3.350000; Error: 1.650000
-Review: 5; Prediction: 2.930000; Error: 2.070000
-Review: 4; Prediction: 3.920000; Error: 0.080000
-Review: 3; Prediction: 3.800000; Error: 0.800000
-Review: 4; Prediction: 3.840000; Error: 0.160000
-Review: 5; Prediction: 3.510000; Error: 1.490000
-Review: 5; Prediction: 3.910000; Error: 1.090000
-Review: 4; Prediction: 3.320000; Error: 0.680000
-Review: 5; Prediction: 4.150000; Error: 0.850000
-Review: 5; Prediction: 3.580000; Error: 1.420000
-Review: 4; Prediction: 3.260000; Error: 0.740000
-Review: 5; Prediction: 3.690000; Error: 1.310000
-Review: 5; Prediction: 3.390000; Error: 1.610000
-Review: 5; Prediction: 3.830000; Error: 1.170000
-Review: 5; Prediction: 3.900000; Error: 1.100000
-Review: 3; Prediction: 3.650000; Error: 0.650000
-Review: 5; Prediction: 3.380000; Error: 1.620000
-Review: 1; Prediction: 3.740000; Error: 2.740000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.300000; Error: 1.700000
-Review: 3; Prediction: 4.130000; Error: 1.130000
-Review: 5; Prediction: 3.440000; Error: 1.560000
-Review: 4; Prediction: 4.020000; Error: 0.020000
-Review: 4; Prediction: 3.800000; Error: 0.200000
-Review: 5; Prediction: 4.020000; Error: 0.980000
-Review: 5; Prediction: 3.610000; Error: 1.390000
-Review: 5; Prediction: 3.710000; Error: 1.290000
-Review: 3; Prediction: 3.640000; Error: 0.640000
-Review: 5; Prediction: 3.720000; Error: 1.280000
-Review: 4; Prediction: 3.900000; Error: 0.100000
-Review: 5; Prediction: 3.380000; Error: 1.620000
-Review: 5; Prediction: 3.880000; Error: 1.120000
-Review: 4; Prediction: 3.730000; Error: 0.270000
-Review: 1; Prediction: 3.530000; Error: 2.530000
-Review: 4; Prediction: 3.710000; Error: 0.290000
-Review: 5; Prediction: 3.760000; Error: 1.240000
-Review: 5; Prediction: 3.820000; Error: 1.180000
-Review: 3; Prediction: 3.760000; Error: 0.760000
-Review: 4; Prediction: 3.790000; Error: 0.210000
-Review: 3; Prediction: 3.810000; Error: 0.810000
-Review: 3; Prediction: 3.740000; Error: 0.740000
-Review: 5; Prediction: 3.260000; Error: 1.740000
-Review: 1; Prediction: 3.480000; Error: 2.480000
-Review: 5; Prediction: 3.180000; Error: 1.820000
-Review: 5; Prediction: 3.620000; Error: 1.380000
-Review: 5; Prediction: 3.970000; Error: 1.030000
-Review: 5; Prediction: 3.560000; Error: 1.440000
-Review: 5; Prediction: 3.790000; Error: 1.210000
-Review: 4; Prediction: 3.820000; Error: 0.180000
-Review: 5; Prediction: 3.620000; Error: 1.380000
-Review: 5; Prediction: 3.510000; Error: 1.490000
-Review: 5; Prediction: 3.300000; Error: 1.700000
-Review: 5; Prediction: 3.510000; Error: 1.490000
-Review: 5; Prediction: 3.430000; Error: 1.570000
-Review: 4; Prediction: 3.720000; Error: 0.280000
-Review: 5; Prediction: 3.240000; Error: 1.760000
-Review: 5; Prediction: 3.810000; Error: 1.190000
-Review: 4; Prediction: 3.810000; Error: 0.190000
-Review: 4; Prediction: 3.580000; Error: 0.420000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 4; Prediction: 3.650000; Error: 0.350000
-Review: 5; Prediction: 3.830000; Error: 1.170000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 4; Prediction: 3.520000; Error: 0.480000
-Review: 5; Prediction: 3.630000; Error: 1.370000
-Review: 5; Prediction: 3.720000; Error: 1.280000
-Review: 4; Prediction: 3.040000; Error: 0.960000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 3; Prediction: 3.370000; Error: 0.370000
-Review: 3; Prediction: 3.420000; Error: 0.420000
-Review: 5; Prediction: 3.310000; Error: 1.690000
-Review: 5; Prediction: 3.190000; Error: 1.810000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 4; Prediction: 3.180000; Error: 0.820000
-Review: 4; Prediction: 2.950000; Error: 1.050000
-Review: 5; Prediction: 2.820000; Error: 2.180000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.020000; Error: 1.980000
-Review: 3; Prediction: 3.140000; Error: 0.140000
-Review: 5; Prediction: 3.280000; Error: 1.720000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 4; Prediction: 3.040000; Error: 0.960000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 3; Prediction: 3.550000; Error: 0.550000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 2.960000; Error: 2.040000
-Review: 5; Prediction: 3.530000; Error: 1.470000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.630000; Error: 1.370000
-Review: 5; Prediction: 3.330000; Error: 1.670000
-Review: 5; Prediction: 3.860000; Error: 1.140000
-Review: 4; Prediction: 3.430000; Error: 0.570000
-Review: 5; Prediction: 3.210000; Error: 1.790000
-Review: 5; Prediction: 3.880000; Error: 1.120000
-Review: 5; Prediction: 3.360000; Error: 1.640000
-Review: 4; Prediction: 3.640000; Error: 0.360000
-Review: 5; Prediction: 3.730000; Error: 1.270000
-Review: 5; Prediction: 3.730000; Error: 1.270000
-Review: 5; Prediction: 3.380000; Error: 1.620000
-Review: 4; Prediction: 3.270000; Error: 0.730000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 3; Prediction: 3.330000; Error: 0.330000
-Review: 5; Prediction: 3.770000; Error: 1.230000
-Review: 5; Prediction: 3.390000; Error: 1.610000
-Review: 5; Prediction: 3.770000; Error: 1.230000
-Review: 4; Prediction: 3.690000; Error: 0.310000
-Review: 3; Prediction: 3.710000; Error: 0.710000
-Review: 3; Prediction: 3.730000; Error: 0.730000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.340000; Error: 1.660000
-Review: 5; Prediction: 4.100000; Error: 0.900000
-Review: 5; Prediction: 3.670000; Error: 1.330000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.580000; Error: 1.420000
-Review: 5; Prediction: 3.300000; Error: 1.700000
-Review: 5; Prediction: 3.480000; Error: 1.520000
-Review: 4; Prediction: 3.910000; Error: 0.090000
-Review: 5; Prediction: 3.840000; Error: 1.160000
-Review: 5; Prediction: 3.810000; Error: 1.190000
-Review: 5; Prediction: 3.280000; Error: 1.720000
-Review: 5; Prediction: 3.760000; Error: 1.240000
-Review: 3; Prediction: 3.250000; Error: 0.250000
-Review: 4; Prediction: 3.760000; Error: 0.240000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.360000; Error: 1.640000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.280000; Error: 1.720000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.720000; Error: 1.280000
-Review: 5; Prediction: 3.730000; Error: 1.270000
-Review: 5; Prediction: 3.530000; Error: 1.470000
-Review: 5; Prediction: 3.400000; Error: 1.600000
-Review: 4; Prediction: 3.740000; Error: 0.260000
-Review: 5; Prediction: 4.260000; Error: 0.740000
-Review: 5; Prediction: 3.130000; Error: 1.870000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.900000; Error: 1.100000
-Review: 5; Prediction: 3.680000; Error: 1.320000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.960000; Error: 1.040000
-Review: 5; Prediction: 4.010000; Error: 0.990000
-Review: 5; Prediction: 4.190000; Error: 0.810000
-Review: 5; Prediction: 3.860000; Error: 1.140000
-Review: 5; Prediction: 3.520000; Error: 1.480000
-Review: 5; Prediction: 2.920000; Error: 2.080000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.360000; Error: 1.640000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.310000; Error: 1.690000
-Review: 4; Prediction: 3.720000; Error: 0.280000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.960000; Error: 1.040000
-Review: 5; Prediction: 3.870000; Error: 1.130000
-Review: 5; Prediction: 3.410000; Error: 1.590000
-Review: 4; Prediction: 3.660000; Error: 0.340000
-Review: 4; Prediction: 3.050000; Error: 0.950000
-Review: 5; Prediction: 3.970000; Error: 1.030000
-Review: 4; Prediction: 3.460000; Error: 0.540000
-Review: 5; Prediction: 3.250000; Error: 1.750000
-Review: 4; Prediction: 3.180000; Error: 0.820000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.590000; Error: 1.410000
-Review: 5; Prediction: 3.540000; Error: 1.460000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.370000; Error: 1.630000
-Review: 5; Prediction: 3.080000; Error: 1.920000
-Review: 5; Prediction: 3.580000; Error: 1.420000
-Review: 5; Prediction: 3.500000; Error: 1.500000
-Review: 5; Prediction: 3.920000; Error: 1.080000
-Review: 5; Prediction: 3.860000; Error: 1.140000
-Review: 5; Prediction: 3.110000; Error: 1.890000
-Review: 5; Prediction: 4.310000; Error: 0.690000
-Review: 5; Prediction: 3.750000; Error: 1.250000
-Review: 5; Prediction: 3.170000; Error: 1.830000
-Review: 5; Prediction: 4.060000; Error: 0.940000
-Review: 5; Prediction: 3.890000; Error: 1.110000
-Review: 3; Prediction: 3.780000; Error: 0.780000
-Review: 4; Prediction: 3.650000; Error: 0.350000
-Review: 1; Prediction: 3.100000; Error: 2.100000
-Review: 3; Prediction: 3.870000; Error: 0.870000
-Review: 3; Prediction: 3.640000; Error: 0.640000
-Review: 4; Prediction: 3.680000; Error: 0.320000
-Review: 4; Prediction: 3.960000; Error: 0.040000
-Review: 3; Prediction: 3.680000; Error: 0.680000
-Review: 4; Prediction: 3.770000; Error: 0.230000
-Review: 3; Prediction: 3.050000; Error: 0.050000
-Review: 5; Prediction: 3.830000; Error: 1.170000
-Review: 3; Prediction: 3.390000; Error: 0.390000
-Review: 3; Prediction: 3.730000; Error: 0.730000
-Review: 1; Prediction: 3.680000; Error: 2.680000
-Review: 3; Prediction: 3.760000; Error: 0.760000
-Review: 4; Prediction: 3.940000; Error: 0.060000
-Review: 4; Prediction: 3.510000; Error: 0.490000
-Review: 4; Prediction: 3.980000; Error: 0.020000
-Review: 4; Prediction: 3.820000; Error: 0.180000
-Review: 3; Prediction: 3.140000; Error: 0.140000
-Review: 3; Prediction: 3.510000; Error: 0.510000
-Review: 4; Prediction: 3.990000; Error: 0.010000
-Review: 1; Prediction: 3.400000; Error: 2.400000
-Review: 5; Prediction: 4.060000; Error: 0.940000
-Review: 5; Prediction: 3.450000; Error: 1.550000
-Review: 5; Prediction: 3.760000; Error: 1.240000
-Review: 5; Prediction: 4.070000; Error: 0.930000
-Review: 5; Prediction: 3.750000; Error: 1.250000
-Review: 5; Prediction: 3.320000; Error: 1.680000
-Review: 5; Prediction: 3.100000; Error: 1.900000
-Review: 5; Prediction: 3.270000; Error: 1.730000
-Review: 3; Prediction: 3.820000; Error: 0.820000
-Review: 5; Prediction: 3.350000; Error: 1.650000
-Review: 5; Prediction: 3.750000; Error: 1.250000
-Review: 4; Prediction: 3.060000; Error: 0.940000
-Review: 5; Prediction: 3.560000; Error: 1.440000
-Review: 5; Prediction: 3.890000; Error: 1.110000
-Review: 5; Prediction: 4.100000; Error: 0.900000
-Review: 4; Prediction: 4.170000; Error: 0.170000
-Review: 5; Prediction: 3.800000; Error: 1.200000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.730000; Error: 1.270000
-Review: 5; Prediction: 3.770000; Error: 1.230000
-Review: 5; Prediction: 3.990000; Error: 1.010000
-Review: 4; Prediction: 2.400000; Error: 1.600000
-Review: 5; Prediction: 3.700000; Error: 1.300000
-Review: 5; Prediction: 4.020000; Error: 0.980000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.400000; Error: 1.600000
-Review: 5; Prediction: 3.390000; Error: 1.610000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.930000; Error: 1.070000
-Review: 5; Prediction: 3.670000; Error: 1.330000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.600000; Error: 1.400000
-Review: 5; Prediction: 4.080000; Error: 0.920000
-Review: 5; Prediction: 4.050000; Error: 0.950000
-Review: 5; Prediction: 3.610000; Error: 1.390000
-Review: 4; Prediction: 3.610000; Error: 0.390000
-Review: 5; Prediction: 3.970000; Error: 1.030000
-Review: 4; Prediction: 3.680000; Error: 0.320000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.090000; Error: 0.910000
-Review: 5; Prediction: 3.900000; Error: 1.100000
-Review: 3; Prediction: 3.130000; Error: 0.130000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 2.250000; Error: 2.750000
-Review: 5; Prediction: 3.660000; Error: 1.340000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.070000; Error: 1.930000
-Review: 5; Prediction: 3.980000; Error: 1.020000
-Review: 5; Prediction: 3.700000; Error: 1.300000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.640000; Error: 1.360000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 4; Prediction: 3.880000; Error: 0.120000
-Review: 5; Prediction: 4.060000; Error: 0.940000
-Review: 5; Prediction: 3.430000; Error: 1.570000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 4.000000; Error: 1.000000
-Review: 5; Prediction: 3.470000; Error: 1.530000
-Review: 4; Prediction: 3.760000; Error: 0.240000
-Review: 5; Prediction: 4.300000; Error: 0.700000
-Review: 5; Prediction: 3.310000; Error: 1.690000
-Review: 5; Prediction: 3.720000; Error: 1.280000
-Review: 5; Prediction: 3.830000; Error: 1.170000
-Review: 5; Prediction: 3.460000; Error: 1.540000
-Review: 5; Prediction: 3.600000; Error: 1.400000
-Review: 5; Prediction: 3.840000; Error: 1.160000
-Review: 5; Prediction: 3.730000; Error: 1.270000
-Review: 4; Prediction: 3.480000; Error: 0.520000
-Review: 5; Prediction: 2.920000; Error: 2.080000
-Review: 5; Prediction: 3.570000; Error: 1.430000
-Review: 4; Prediction: 3.790000; Error: 0.210000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.990000; Error: 1.010000
-Review: 5; Prediction: 3.350000; Error: 1.650000
-Review: 5; Prediction: 3.580000; Error: 1.420000
-Review: 1; Prediction: 3.670000; Error: 2.670000
-Review: 5; Prediction: 2.880000; Error: 2.120000
-Review: 5; Prediction: 3.900000; Error: 1.100000
-Review: 5; Prediction: 3.410000; Error: 1.590000
-Review: 5; Prediction: 3.770000; Error: 1.230000
-Review: 5; Prediction: 2.680000; Error: 2.320000
-Review: 3; Prediction: 3.810000; Error: 0.810000
-Review: 4; Prediction: 4.050000; Error: 0.050000
-Review: 5; Prediction: 3.350000; Error: 1.650000
-Review: 5; Prediction: 3.460000; Error: 1.540000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.350000; Error: 1.650000
-Review: 2; Prediction: 3.560000; Error: 1.560000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 2.920000; Error: 2.080000
-Review: 5; Prediction: 3.930000; Error: 1.070000
-Review: 5; Prediction: 3.170000; Error: 1.830000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.500000; Error: 1.500000
-Review: 5; Prediction: 3.600000; Error: 1.400000
-Review: 5; Prediction: 3.420000; Error: 1.580000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.540000; Error: 1.460000
-Review: 5; Prediction: 3.760000; Error: 1.240000
-Review: 4; Prediction: 3.620000; Error: 0.380000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 2.830000; Error: 2.170000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.840000; Error: 1.160000
-Review: 4; Prediction: 3.400000; Error: 0.600000
-Review: 5; Prediction: 3.760000; Error: 1.240000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 4; Prediction: 3.410000; Error: 0.590000
-Review: 4; Prediction: 3.620000; Error: 0.380000
-Review: 5; Prediction: 3.620000; Error: 1.380000
-Review: 5; Prediction: 3.960000; Error: 1.040000
-Review: 5; Prediction: 3.480000; Error: 1.520000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 4; Prediction: 3.800000; Error: 0.200000
-Review: 5; Prediction: 3.520000; Error: 1.480000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.520000; Error: 1.480000
-Review: 5; Prediction: 3.350000; Error: 1.650000
-Review: 5; Prediction: 3.550000; Error: 1.450000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.910000; Error: 1.090000
-Review: 5; Prediction: 3.270000; Error: 1.730000
-Review: 5; Prediction: 3.860000; Error: 1.140000
-Review: 5; Prediction: 3.770000; Error: 1.230000
-Review: 5; Prediction: 3.410000; Error: 1.590000
-Review: 5; Prediction: 3.730000; Error: 1.270000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.600000; Error: 1.400000
-Review: 5; Prediction: 3.660000; Error: 1.340000
-Review: 5; Prediction: 3.270000; Error: 1.730000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.990000; Error: 1.010000
-Review: 5; Prediction: 3.470000; Error: 1.530000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.680000; Error: 1.320000
-Review: 5; Prediction: 3.360000; Error: 1.640000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 4; Prediction: 3.270000; Error: 0.730000
-Review: 4; Prediction: 3.460000; Error: 0.540000
-Review: 3; Prediction: 3.790000; Error: 0.790000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.480000; Error: 1.520000
-Review: 4; Prediction: 3.400000; Error: 0.600000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.140000; Error: 1.860000
-Review: 5; Prediction: 3.050000; Error: 1.950000
-Review: 5; Prediction: 3.730000; Error: 1.270000
-Review: 5; Prediction: 3.720000; Error: 1.280000
-Review: 5; Prediction: 3.440000; Error: 1.560000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.290000; Error: 1.710000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.640000; Error: 1.360000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.110000; Error: 1.890000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.410000; Error: 1.590000
-Review: 5; Prediction: 3.550000; Error: 1.450000
-Review: 4; Prediction: 3.530000; Error: 0.470000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 4; Prediction: 2.810000; Error: 1.190000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.700000; Error: 1.300000
-Review: 5; Prediction: 4.000000; Error: 1.000000
-Review: 5; Prediction: 3.280000; Error: 1.720000
-Review: 5; Prediction: 3.950000; Error: 1.050000
-Review: 5; Prediction: 3.470000; Error: 1.530000
-Review: 5; Prediction: 4.210000; Error: 0.790000
-Review: 5; Prediction: 3.870000; Error: 1.130000
-Review: 5; Prediction: 3.870000; Error: 1.130000
-Review: 5; Prediction: 3.810000; Error: 1.190000
-Review: 4; Prediction: 3.460000; Error: 0.540000
-Review: 5; Prediction: 4.140000; Error: 0.860000
-Review: 5; Prediction: 3.800000; Error: 1.200000
-Review: 5; Prediction: 4.290000; Error: 0.710000
-Review: 4; Prediction: 3.210000; Error: 0.790000
-Review: 5; Prediction: 3.640000; Error: 1.360000
-Review: 5; Prediction: 3.590000; Error: 1.410000
-Review: 5; Prediction: 3.200000; Error: 1.800000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.130000; Error: 1.870000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.240000; Error: 1.760000
-Review: 3; Prediction: 3.700000; Error: 0.700000
-Review: 5; Prediction: 3.440000; Error: 1.560000
-Review: 5; Prediction: 3.550000; Error: 1.450000
-Review: 3; Prediction: 3.860000; Error: 0.860000
-Review: 5; Prediction: 4.190000; Error: 0.810000
-Review: 4; Prediction: 3.120000; Error: 0.880000
-Review: 5; Prediction: 3.700000; Error: 1.300000
-Review: 5; Prediction: 3.840000; Error: 1.160000
-Review: 5; Prediction: 3.290000; Error: 1.710000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.750000; Error: 1.250000
-Review: 5; Prediction: 3.430000; Error: 1.570000
-Review: 5; Prediction: 3.300000; Error: 1.700000
-Review: 5; Prediction: 3.490000; Error: 1.510000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 3.250000; Error: 1.750000
-Review: 5; Prediction: 3.860000; Error: 1.140000
-Review: 4; Prediction: 3.610000; Error: 0.390000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 5; Prediction: 2.990000; Error: 2.010000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 4; Prediction: 3.220000; Error: 0.780000
-Review: 5; Prediction: 3.590000; Error: 1.410000
-Review: 4; Prediction: 3.400000; Error: 0.600000
-Review: 5; Prediction: 3.250000; Error: 1.750000
-Review: 5; Prediction: 2.670000; Error: 2.330000
-Review: 0; Prediction: 0.000000; Error: 0.000000
-Review: 3; Prediction: 3.110000; Error: 0.110000
-Review: 5; Prediction: 3.270000; Error: 1.730000
-Review: 5; Prediction: 3.700000; Error: 1.300000
-Review: 2; Prediction: 3.278333; Error: 1.278333
-Review: 5; Prediction: 4.703636; Error: 0.296364
-Review: 1; Prediction: 2.480000; Error: 1.480000
-Review: 4; Prediction: 3.963182; Error: 0.036818
-Review: 5; Prediction: 4.814516; Error: 0.185484
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 4.845798; Error: 0.154202
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 3; Prediction: 3.455429; Error: 0.455429
-Review: 3; Prediction: 3.954211; Error: 0.954211
-Review: 5; Prediction: 4.598889; Error: 0.401111
-Review: 3; Prediction: 3.772174; Error: 0.772174
-Review: 4; Prediction: 4.059000; Error: 0.059000
-Review: 4; Prediction: 4.382500; Error: 0.382500
-Review: 3; Prediction: 3.438810; Error: 0.438810
-Review: 3; Prediction: 3.436819; Error: 0.436819
-Review: 5; Prediction: 4.703636; Error: 0.296364
-Review: 2; Prediction: 2.485000; Error: 0.485000
-Review: 3; Prediction: 3.786500; Error: 0.786500
-Review: 3; Prediction: 3.627500; Error: 0.627500
-Review: 5; Prediction: 4.312333; Error: 0.687667
-Review: 5; Prediction: 4.677164; Error: 0.322836
-Review: 3; Prediction: 3.542174; Error: 0.542174
-Review: 5; Prediction: 4.206842; Error: 0.793158
-Review: 5; Prediction: 4.057500; Error: 0.942500
-Review: 5; Prediction: 4.761759; Error: 0.238241
-Review: 3; Prediction: 3.453784; Error: 0.453784
-Review: 3; Prediction: 3.546666; Error: 0.546666
-Review: 3; Prediction: 4.056875; Error: 1.056875
-Review: 5; Prediction: 4.733666; Error: 0.266334
-Review: 5; Prediction: 4.691250; Error: 0.308750
-Review: 5; Prediction: 4.206842; Error: 0.793158
-Review: 3; Prediction: 3.786500; Error: 0.786500
-Review: 1; Prediction: 2.530000; Error: 1.530000
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 1; Prediction: 2.583125; Error: 1.583125
-Review: 5; Prediction: 4.677164; Error: 0.322836
-Review: 5; Prediction: 4.832869; Error: 0.167131
-Review: 22; Prediction: 0.621622; Error: 21.378378
-Review: 3; Prediction: 3.551579; Error: 0.551579
-Review: 5; Prediction: 4.817215; Error: 0.182785
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 4; Prediction: 4.223478; Error: 0.223478
-Review: 5; Prediction: 4.823774; Error: 0.176226
-Review: 1; Prediction: 3.389348; Error: 2.389348
-Review: 5; Prediction: 4.598889; Error: 0.401111
-Review: 4; Prediction: 4.448800; Error: 0.448800
-Review: 3; Prediction: 3.456970; Error: 0.456970
-Review: 5; Prediction: 4.598889; Error: 0.401111
-Review: 5; Prediction: 4.825089; Error: 0.174911
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 4.761759; Error: 0.238241
-Review: 4; Prediction: 4.504516; Error: 0.504516
-Review: 5; Prediction: 4.733666; Error: 0.266334
-Review: 5; Prediction: 4.549534; Error: 0.450466
-Review: 5; Prediction: 4.691250; Error: 0.308750
-Review: 5; Prediction: 4.677164; Error: 0.322836
-Review: 5; Prediction: 4.809659; Error: 0.190341
-Review: 5; Prediction: 4.707500; Error: 0.292500
-Review: 5; Prediction: 4.598889; Error: 0.401111
-Review: 5; Prediction: 4.761759; Error: 0.238241
-Review: 5; Prediction: 4.733666; Error: 0.266334
-Review: 2; Prediction: 3.317143; Error: 1.317143
-Review: 5; Prediction: 4.824538; Error: 0.175462
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 4.833334; Error: 0.166666
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 4.825999; Error: 0.174001
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 4.819703; Error: 0.180297
-Review: 1; Prediction: 3.232500; Error: 2.232500
-Review: 5; Prediction: 4.707500; Error: 0.292500
-Review: 4; Prediction: 4.598889; Error: 0.598889
-Review: 5; Prediction: 4.630483; Error: 0.369517
-Review: 5; Prediction: 4.825128; Error: 0.174872
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 4; Prediction: 4.450333; Error: 0.450333
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 4.856725; Error: 0.143275
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 4.825999; Error: 0.174001
-Review: 5; Prediction: 4.819703; Error: 0.180297
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 4.809659; Error: 0.190341
-Review: 5; Prediction: 4.630483; Error: 0.369517
-Review: 5; Prediction: 4.817215; Error: 0.182785
-Review: 5; Prediction: 4.809659; Error: 0.190341
-Review: 5; Prediction: 4.825999; Error: 0.174001
-Review: 1; Prediction: 0.621622; Error: 0.378378
-Review: 5; Prediction: 4.823774; Error: 0.176226
-Review: 5; Prediction: 4.691250; Error: 0.308750
-Review: 5; Prediction: 4.809659; Error: 0.190341
-Review: 5; Prediction: 4.677164; Error: 0.322836
-Review: 4; Prediction: 4.448800; Error: 0.448800
-Review: 5; Prediction: 4.824297; Error: 0.175703
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 4.312333; Error: 0.687667
-Review: 5; Prediction: 4.825128; Error: 0.174872
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 4.513143; Error: 0.486857
-Review: 5; Prediction: 4.677164; Error: 0.322836
-Review: 4; Prediction: 4.057500; Error: 0.057500
-Review: 5; Prediction: 4.312333; Error: 0.687667
-Review: 5; Prediction: 4.814516; Error: 0.185484
-Review: 4; Prediction: 4.206842; Error: 0.206842
-Review: 5; Prediction: 4.622203; Error: 0.377797
-Review: 4; Prediction: 4.513143; Error: 0.513143
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 4.846325; Error: 0.153675
-Review: 5; Prediction: 4.622203; Error: 0.377797
-Review: 5; Prediction: 4.677164; Error: 0.322836
-Review: 5; Prediction: 4.677164; Error: 0.322836
-Review: 5; Prediction: 4.823774; Error: 0.176226
-Review: 4; Prediction: 4.382500; Error: 0.382500
-Review: 5; Prediction: 4.513143; Error: 0.486857
-Review: 5; Prediction: 4.814516; Error: 0.185484
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 4.845538; Error: 0.154462
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 4; Prediction: 4.223478; Error: 0.223478
-Review: 5; Prediction: 4.832479; Error: 0.167521
-Review: 5; Prediction: 4.733666; Error: 0.266334
-Review: 5; Prediction: 4.450333; Error: 0.549667
-Review: 5; Prediction: 4.622203; Error: 0.377797
-Review: 4; Prediction: 4.450333; Error: 0.450333
-Review: 5; Prediction: 4.833334; Error: 0.166666
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 4.703636; Error: 0.296364
-Review: 5; Prediction: 4.817215; Error: 0.182785
-Review: 3; Prediction: 3.458387; Error: 0.458387
-Review: 5; Prediction: 4.622203; Error: 0.377797
-Review: 3; Prediction: 3.517308; Error: 0.517308
-Review: 2; Prediction: 3.458387; Error: 1.458387
-Review: 3; Prediction: 3.514286; Error: 0.514286
-Review: 3; Prediction: 3.451539; Error: 0.451539
-Review: 4; Prediction: 4.313001; Error: 0.313001
-Review: 5; Prediction: 4.733666; Error: 0.266334
-Review: 5; Prediction: 4.733666; Error: 0.266334
-Review: 4; Prediction: 4.058333; Error: 0.058333
-Review: 3; Prediction: 3.517308; Error: 0.517308
-Review: 4; Prediction: 4.313001; Error: 0.313001
-Review: 5; Prediction: 4.448800; Error: 0.551200
-Review: 4; Prediction: 4.313001; Error: 0.313001
-Review: 4; Prediction: 3.864118; Error: 0.135882
-Review: 3; Prediction: 3.627500; Error: 0.627500
-Review: 5; Prediction: 4.703636; Error: 0.296364
-Review: 5; Prediction: 4.543659; Error: 0.456341
-Review: 4; Prediction: 4.313001; Error: 0.313001
-Review: 5; Prediction: 4.448800; Error: 0.551200
-Review: 5; Prediction: 4.450333; Error: 0.549667
-Review: 5; Prediction: 4.691250; Error: 0.308750
-Review: 3; Prediction: 3.864118; Error: 0.864118
-Review: 4; Prediction: 4.382500; Error: 0.382500
-Review: 5; Prediction: 4.733666; Error: 0.266334
-Review: 4; Prediction: 4.206842; Error: 0.206842
-Review: 5; Prediction: 4.574042; Error: 0.425958
-Review: 3; Prediction: 3.438810; Error: 0.438810
-Review: 5; Prediction: 4.543659; Error: 0.456341
-Review: 4; Prediction: 4.312333; Error: 0.312333
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 1; Prediction: 2.447500; Error: 1.447500
-Review: 4; Prediction: 3.772174; Error: 0.227826
-Review: 4; Prediction: 3.963182; Error: 0.036818
-Review: 4; Prediction: 4.312333; Error: 0.312333
-Review: 4; Prediction: 4.313001; Error: 0.313001
-Review: 5; Prediction: 4.733666; Error: 0.266334
-Review: 5; Prediction: 4.504516; Error: 0.495484
-Review: 5; Prediction: 4.819703; Error: 0.180297
-Review: 4; Prediction: 4.543659; Error: 0.543659
-Review: 5; Prediction: 4.312333; Error: 0.687667
-Review: 5; Prediction: 4.574042; Error: 0.425958
-Review: 5; Prediction: 4.809659; Error: 0.190341
-Review: 5; Prediction: 4.814516; Error: 0.185484
-Review: 5; Prediction: 4.733666; Error: 0.266334
-Review: 1; Prediction: 2.964231; Error: 1.964231
-Review: 5; Prediction: 4.574042; Error: 0.425958
-Review: 5; Prediction: 4.223478; Error: 0.776522
-Review: 5; Prediction: 4.823774; Error: 0.176226
-Review: 5; Prediction: 4.543659; Error: 0.456341
-Review: 5; Prediction: 4.761759; Error: 0.238241
-Review: 5; Prediction: 4.504516; Error: 0.495484
-Review: 5; Prediction: 4.761759; Error: 0.238241
-Review: 5; Prediction: 4.809659; Error: 0.190341
-Review: 5; Prediction: 4.543659; Error: 0.456341
-Review: 5; Prediction: 4.504516; Error: 0.495484
-Review: 5; Prediction: 4.598889; Error: 0.401111
-Review: 5; Prediction: 4.630483; Error: 0.369517
-Review: 5; Prediction: 3.453513; Error: 1.546487
-Review: 4; Prediction: 3.201500; Error: 0.798500
-Review: 5; Prediction: 3.147941; Error: 1.852059
-Review: 5; Prediction: 3.388913; Error: 1.611087
-Review: 5; Prediction: 3.343000; Error: 1.657000
-Review: 5; Prediction: 3.343500; Error: 1.656500
-Review: 5; Prediction: 3.513214; Error: 1.486786
-Review: 5; Prediction: 3.456970; Error: 1.543030
-Review: 5; Prediction: 2.525556; Error: 2.474444
-Review: 5; Prediction: 3.551579; Error: 1.448421
-Review: 5; Prediction: 3.786500; Error: 1.213500
-Review: 5; Prediction: 3.343500; Error: 1.656500
-Review: 4; Prediction: 2.847500; Error: 1.152500
-Review: 4; Prediction: 3.148235; Error: 0.851765
-Review: 5; Prediction: 2.526111; Error: 2.473889
-Review: 4; Prediction: 3.129062; Error: 0.870938
-Review: 5; Prediction: 3.148235; Error: 1.851765
-Review: 5; Prediction: 3.436819; Error: 1.563181
-Review: 5; Prediction: 2.912609; Error: 2.087391
-Review: 5; Prediction: 2.366191; Error: 2.633809
-Review: 4; Prediction: 3.512500; Error: 0.487500
-Review: 3; Prediction: 3.436591; Error: 0.436591
-Review: 4; Prediction: 3.451539; Error: 0.548461
-Review: 5; Prediction: 3.201500; Error: 1.798500
-Review: 5; Prediction: 3.512143; Error: 1.487857
-Review: 4; Prediction: 2.761177; Error: 1.238823
-Review: 5; Prediction: 4.058333; Error: 0.941667
-Review: 5; Prediction: 3.278333; Error: 1.721667
-Review: 4; Prediction: 2.582500; Error: 1.417500
-Review: 5; Prediction: 3.388044; Error: 1.611956
-Review: 5; Prediction: 3.029166; Error: 1.970834
-Review: 5; Prediction: 3.438810; Error: 1.561190
-Review: 5; Prediction: 3.511786; Error: 1.488214
-Review: 3; Prediction: 3.342750; Error: 0.342750
-Review: 5; Prediction: 2.964231; Error: 2.035769
-Review: 1; Prediction: 3.389130; Error: 2.389130
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.760000; Error: 2.240000
-Review: 3; Prediction: 4.058500; Error: 1.058500
-Review: 5; Prediction: 3.129062; Error: 1.870938
-Review: 4; Prediction: 3.551579; Error: 0.448421
-Review: 4; Prediction: 3.436591; Error: 0.563409
-Review: 5; Prediction: 3.551579; Error: 1.448421
-Review: 5; Prediction: 3.316667; Error: 1.683333
-Review: 5; Prediction: 3.388478; Error: 1.611522
-Review: 3; Prediction: 3.342500; Error: 0.342500
-Review: 5; Prediction: 3.388696; Error: 1.611304
-Review: 4; Prediction: 3.511786; Error: 0.488214
-Review: 5; Prediction: 2.964231; Error: 2.035769
-Review: 5; Prediction: 3.456970; Error: 1.543030
-Review: 4; Prediction: 3.388913; Error: 0.611087
-Review: 1; Prediction: 3.216666; Error: 2.216666
-Review: 4; Prediction: 3.388478; Error: 0.611522
-Review: 5; Prediction: 3.435682; Error: 1.564318
-Review: 5; Prediction: 3.438572; Error: 1.561428
-Review: 3; Prediction: 3.435682; Error: 0.435682
-Review: 4; Prediction: 3.436364; Error: 0.563636
-Review: 3; Prediction: 3.436819; Error: 0.436819
-Review: 3; Prediction: 3.389130; Error: 0.389130
-Review: 5; Prediction: 2.582500; Error: 2.417500
-Review: 1; Prediction: 3.148529; Error: 2.148529
-Review: 5; Prediction: 2.526666; Error: 2.473334
-Review: 5; Prediction: 3.316905; Error: 1.683095
-Review: 5; Prediction: 3.514286; Error: 1.485714
-Review: 5; Prediction: 3.232500; Error: 1.767500
-Review: 5; Prediction: 3.436364; Error: 1.563636
-Review: 4; Prediction: 3.438572; Error: 0.561428
-Review: 5; Prediction: 3.316905; Error: 1.683095
-Review: 5; Prediction: 3.201500; Error: 1.798500
-Review: 5; Prediction: 2.760000; Error: 2.240000
-Review: 5; Prediction: 3.201500; Error: 1.798500
-Review: 5; Prediction: 3.108333; Error: 1.891667
-Review: 4; Prediction: 3.388696; Error: 0.611304
-Review: 5; Prediction: 2.530000; Error: 2.470000
-Review: 5; Prediction: 3.436819; Error: 1.563181
-Review: 4; Prediction: 3.436819; Error: 0.563181
-Review: 4; Prediction: 3.278333; Error: 0.721667
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 4; Prediction: 3.342750; Error: 0.657250
-Review: 5; Prediction: 3.438810; Error: 1.561190
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 4; Prediction: 3.216429; Error: 0.783571
-Review: 5; Prediction: 3.317143; Error: 1.682857
-Review: 5; Prediction: 3.388696; Error: 1.611304
-Review: 4; Prediction: 2.445417; Error: 1.554583
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 3; Prediction: 2.963846; Error: 0.036154
-Review: 3; Prediction: 3.059231; Error: 0.059231
-Review: 5; Prediction: 2.760588; Error: 2.239412
-Review: 5; Prediction: 2.527223; Error: 2.472777
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 4; Prediction: 2.526666; Error: 1.473334
-Review: 4; Prediction: 2.367143; Error: 1.632857
-Review: 5; Prediction: 2.360952; Error: 2.639048
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.444583; Error: 2.555417
-Review: 3; Prediction: 2.479500; Error: 0.520500
-Review: 5; Prediction: 2.758824; Error: 2.241176
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 4; Prediction: 2.445417; Error: 1.554583
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 3; Prediction: 3.217142; Error: 0.217142
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.367619; Error: 2.632381
-Review: 5; Prediction: 3.216666; Error: 1.783334
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.317143; Error: 1.682857
-Review: 5; Prediction: 2.761765; Error: 2.238235
-Review: 5; Prediction: 3.453784; Error: 1.546216
-Review: 4; Prediction: 3.108333; Error: 0.891667
-Review: 5; Prediction: 2.528333; Error: 2.471667
-Review: 5; Prediction: 3.456970; Error: 1.543030
-Review: 5; Prediction: 2.963461; Error: 2.036539
-Review: 4; Prediction: 3.342500; Error: 0.657500
-Review: 5; Prediction: 3.388913; Error: 1.611087
-Review: 5; Prediction: 3.388913; Error: 1.611087
-Review: 5; Prediction: 2.964231; Error: 2.035769
-Review: 4; Prediction: 2.583125; Error: 1.416875
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 3; Prediction: 2.761765; Error: 0.238235
-Review: 5; Prediction: 3.435909; Error: 1.564091
-Review: 5; Prediction: 3.029166; Error: 1.970834
-Review: 5; Prediction: 3.435909; Error: 1.564091
-Review: 4; Prediction: 3.388044; Error: 0.611956
-Review: 3; Prediction: 3.388478; Error: 0.388478
-Review: 3; Prediction: 3.388913; Error: 0.388913
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.847500; Error: 2.152500
-Review: 5; Prediction: 3.954211; Error: 1.045789
-Review: 5; Prediction: 3.343250; Error: 1.656750
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.278333; Error: 1.721667
-Review: 5; Prediction: 2.760000; Error: 2.240000
-Review: 5; Prediction: 3.148529; Error: 1.851471
-Review: 4; Prediction: 3.512143; Error: 0.487857
-Review: 5; Prediction: 3.451539; Error: 1.548461
-Review: 5; Prediction: 3.436819; Error: 1.563181
-Review: 5; Prediction: 2.758824; Error: 2.241176
-Review: 5; Prediction: 3.435682; Error: 1.564318
-Review: 3; Prediction: 2.581875; Error: 0.418125
-Review: 4; Prediction: 3.435682; Error: 0.564318
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.963461; Error: 2.036539
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.758824; Error: 2.241176
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.388696; Error: 1.611304
-Review: 5; Prediction: 3.388913; Error: 1.611087
-Review: 5; Prediction: 3.216666; Error: 1.783334
-Review: 5; Prediction: 3.029583; Error: 1.970417
-Review: 4; Prediction: 3.389130; Error: 0.610870
-Review: 5; Prediction: 4.447000; Error: 0.553000
-Review: 5; Prediction: 2.479000; Error: 2.521000
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.511786; Error: 1.488214
-Review: 5; Prediction: 3.343500; Error: 1.656500
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.513929; Error: 1.486071
-Review: 5; Prediction: 3.546666; Error: 1.453334
-Review: 5; Prediction: 4.223478; Error: 0.776522
-Review: 5; Prediction: 3.453784; Error: 1.546216
-Review: 5; Prediction: 3.216429; Error: 1.783571
-Review: 5; Prediction: 2.365714; Error: 2.634286
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.963461; Error: 2.036539
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.760588; Error: 2.239412
-Review: 4; Prediction: 3.388696; Error: 0.611304
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.513929; Error: 1.486071
-Review: 5; Prediction: 3.455429; Error: 1.544571
-Review: 5; Prediction: 3.058846; Error: 1.941154
-Review: 4; Prediction: 3.343000; Error: 0.657000
-Review: 4; Prediction: 2.445833; Error: 1.554167
-Review: 5; Prediction: 3.514286; Error: 1.485714
-Review: 4; Prediction: 3.147941; Error: 0.852059
-Review: 5; Prediction: 2.581875; Error: 2.418125
-Review: 4; Prediction: 2.526666; Error: 1.473334
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.316191; Error: 1.683809
-Review: 5; Prediction: 3.216905; Error: 1.783095
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.963846; Error: 2.036154
-Review: 5; Prediction: 2.447083; Error: 2.552917
-Review: 5; Prediction: 3.278333; Error: 1.721667
-Review: 5; Prediction: 3.167778; Error: 1.832222
-Review: 5; Prediction: 3.512500; Error: 1.487500
-Review: 5; Prediction: 3.453784; Error: 1.546216
-Review: 5; Prediction: 2.485000; Error: 2.515000
-Review: 5; Prediction: 4.513143; Error: 0.486857
-Review: 5; Prediction: 3.389348; Error: 1.610652
-Review: 5; Prediction: 2.526111; Error: 2.473889
-Review: 5; Prediction: 3.864118; Error: 1.135882
-Review: 5; Prediction: 3.458387; Error: 1.541613
-Review: 3; Prediction: 3.436136; Error: 0.436136
-Review: 4; Prediction: 3.342750; Error: 0.657250
-Review: 1; Prediction: 2.484545; Error: 1.484545
-Review: 3; Prediction: 3.455429; Error: 0.455429
-Review: 3; Prediction: 3.342500; Error: 0.342500
-Review: 4; Prediction: 3.343500; Error: 0.656500
-Review: 4; Prediction: 3.513929; Error: 0.486071
-Review: 3; Prediction: 3.343500; Error: 0.343500
-Review: 4; Prediction: 3.435909; Error: 0.564091
-Review: 3; Prediction: 2.445833; Error: 0.554167
-Review: 5; Prediction: 3.438810; Error: 1.561190
-Review: 3; Prediction: 3.029166; Error: 0.029166
-Review: 3; Prediction: 3.388913; Error: 0.388913
-Review: 1; Prediction: 3.343500; Error: 2.343500
-Review: 3; Prediction: 3.435682; Error: 0.435682
-Review: 4; Prediction: 3.513214; Error: 0.486786
-Review: 4; Prediction: 3.201500; Error: 0.798500
-Review: 4; Prediction: 3.516923; Error: 0.483077
-Review: 4; Prediction: 3.438572; Error: 0.561428
-Review: 3; Prediction: 2.479500; Error: 0.520500
-Review: 3; Prediction: 3.201500; Error: 0.201500
-Review: 4; Prediction: 3.517308; Error: 0.482692
-Review: 1; Prediction: 3.029583; Error: 2.029583
-Review: 5; Prediction: 3.864118; Error: 1.135882
-Review: 5; Prediction: 3.147647; Error: 1.852353
-Review: 5; Prediction: 3.435682; Error: 1.564318
-Review: 5; Prediction: 3.951500; Error: 1.048500
-Review: 5; Prediction: 3.389348; Error: 1.610652
-Review: 5; Prediction: 2.761177; Error: 2.238823
-Review: 5; Prediction: 2.484545; Error: 2.515455
-Review: 5; Prediction: 2.583125; Error: 2.416875
-Review: 3; Prediction: 3.438572; Error: 0.438572
-Review: 5; Prediction: 2.912609; Error: 2.087391
-Review: 5; Prediction: 3.389348; Error: 1.610652
-Review: 4; Prediction: 2.446250; Error: 1.553750
-Review: 5; Prediction: 3.232500; Error: 1.767500
-Review: 5; Prediction: 3.458387; Error: 1.541613
-Review: 5; Prediction: 3.954211; Error: 1.045789
-Review: 4; Prediction: 4.206842; Error: 0.206842
-Review: 5; Prediction: 3.436591; Error: 1.563409
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.388913; Error: 1.611087
-Review: 5; Prediction: 3.435909; Error: 1.564091
-Review: 5; Prediction: 3.517308; Error: 1.482692
-Review: 4; Prediction: 2.189333; Error: 1.810667
-Review: 5; Prediction: 3.388261; Error: 1.611739
-Review: 5; Prediction: 3.551579; Error: 1.448421
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.029583; Error: 1.970417
-Review: 5; Prediction: 3.029166; Error: 1.970834
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.512857; Error: 1.487143
-Review: 5; Prediction: 3.343250; Error: 1.656750
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.316429; Error: 1.683571
-Review: 5; Prediction: 3.963182; Error: 1.036818
-Review: 5; Prediction: 3.786500; Error: 1.213500
-Review: 5; Prediction: 3.316667; Error: 1.683333
-Review: 4; Prediction: 3.316667; Error: 0.683333
-Review: 5; Prediction: 3.514286; Error: 1.485714
-Review: 4; Prediction: 3.343500; Error: 0.656500
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.953684; Error: 1.046316
-Review: 5; Prediction: 3.511786; Error: 1.488214
-Review: 3; Prediction: 2.479000; Error: 0.521000
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.125455; Error: 2.874545
-Review: 5; Prediction: 3.343000; Error: 1.657000
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.446667; Error: 2.553333
-Review: 5; Prediction: 3.516923; Error: 1.483077
-Review: 5; Prediction: 3.388261; Error: 1.611739
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.342500; Error: 1.657500
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 4; Prediction: 3.456970; Error: 0.543030
-Review: 5; Prediction: 3.864118; Error: 1.135882
-Review: 5; Prediction: 3.108333; Error: 1.891667
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.542174; Error: 1.457826
-Review: 5; Prediction: 3.148235; Error: 1.851765
-Review: 4; Prediction: 3.435682; Error: 0.564318
-Review: 5; Prediction: 4.504516; Error: 0.495484
-Review: 5; Prediction: 2.760588; Error: 2.239412
-Review: 5; Prediction: 3.388696; Error: 1.611304
-Review: 5; Prediction: 3.438810; Error: 1.561190
-Review: 5; Prediction: 3.147941; Error: 1.852059
-Review: 5; Prediction: 3.316429; Error: 1.683571
-Review: 5; Prediction: 3.451539; Error: 1.548461
-Review: 5; Prediction: 3.388913; Error: 1.611087
-Review: 4; Prediction: 3.148529; Error: 0.851471
-Review: 5; Prediction: 2.365714; Error: 2.634286
-Review: 5; Prediction: 3.278095; Error: 1.721905
-Review: 4; Prediction: 3.436364; Error: 0.563636
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.517308; Error: 1.482692
-Review: 5; Prediction: 2.912609; Error: 2.087391
-Review: 5; Prediction: 3.278333; Error: 1.721667
-Review: 1; Prediction: 3.343250; Error: 2.343250
-Review: 5; Prediction: 2.363810; Error: 2.636190
-Review: 5; Prediction: 3.511786; Error: 1.488214
-Review: 5; Prediction: 3.058846; Error: 1.941154
-Review: 5; Prediction: 3.435909; Error: 1.564091
-Review: 5; Prediction: 2.248824; Error: 2.751176
-Review: 3; Prediction: 3.436819; Error: 0.436819
-Review: 4; Prediction: 3.786500; Error: 0.213500
-Review: 5; Prediction: 2.912609; Error: 2.087391
-Review: 5; Prediction: 3.147941; Error: 1.852059
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.912609; Error: 2.087391
-Review: 2; Prediction: 3.232500; Error: 1.232500
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.365714; Error: 2.634286
-Review: 5; Prediction: 3.512857; Error: 1.487143
-Review: 5; Prediction: 2.526111; Error: 2.473889
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.167778; Error: 1.832222
-Review: 5; Prediction: 3.316429; Error: 1.683571
-Review: 5; Prediction: 3.059231; Error: 1.940769
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.216905; Error: 1.783095
-Review: 5; Prediction: 3.435682; Error: 1.564318
-Review: 4; Prediction: 3.316905; Error: 0.683095
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.361428; Error: 2.638572
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.451539; Error: 1.548461
-Review: 4; Prediction: 3.029583; Error: 0.970417
-Review: 5; Prediction: 3.435682; Error: 1.564318
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 4; Prediction: 3.058846; Error: 0.941154
-Review: 4; Prediction: 3.316905; Error: 0.683095
-Review: 5; Prediction: 3.316905; Error: 1.683095
-Review: 5; Prediction: 3.513929; Error: 1.486071
-Review: 5; Prediction: 3.148529; Error: 1.851471
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 4; Prediction: 3.436591; Error: 0.563409
-Review: 5; Prediction: 3.216429; Error: 1.783571
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.216429; Error: 1.783571
-Review: 5; Prediction: 2.912609; Error: 2.087391
-Review: 5; Prediction: 3.217142; Error: 1.782858
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.512143; Error: 1.487857
-Review: 5; Prediction: 2.583125; Error: 2.416875
-Review: 5; Prediction: 3.453784; Error: 1.546216
-Review: 5; Prediction: 3.435909; Error: 1.564091
-Review: 5; Prediction: 3.058846; Error: 1.941154
-Review: 5; Prediction: 3.388913; Error: 1.611087
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.316429; Error: 1.683571
-Review: 5; Prediction: 3.343000; Error: 1.657000
-Review: 5; Prediction: 2.583125; Error: 2.416875
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.517308; Error: 1.482692
-Review: 5; Prediction: 3.148235; Error: 1.851765
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.343500; Error: 1.656500
-Review: 5; Prediction: 2.963461; Error: 2.036539
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 4; Prediction: 2.583125; Error: 1.416875
-Review: 4; Prediction: 3.147941; Error: 0.852059
-Review: 3; Prediction: 3.436364; Error: 0.436364
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.148529; Error: 1.851471
-Review: 4; Prediction: 3.029583; Error: 0.970417
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.479500; Error: 2.520500
-Review: 5; Prediction: 2.445833; Error: 2.554167
-Review: 5; Prediction: 3.388913; Error: 1.611087
-Review: 5; Prediction: 3.388696; Error: 1.611304
-Review: 5; Prediction: 3.129062; Error: 1.870938
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.759412; Error: 2.240588
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.342500; Error: 1.657500
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.485000; Error: 2.515000
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.058846; Error: 1.941154
-Review: 5; Prediction: 3.217142; Error: 1.782858
-Review: 4; Prediction: 3.216666; Error: 0.783334
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 4; Prediction: 2.312632; Error: 1.687368
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.388261; Error: 1.611739
-Review: 5; Prediction: 3.542174; Error: 1.457826
-Review: 5; Prediction: 2.758824; Error: 2.241176
-Review: 5; Prediction: 3.513572; Error: 1.486428
-Review: 5; Prediction: 3.148235; Error: 1.851765
-Review: 5; Prediction: 4.312333; Error: 0.687667
-Review: 5; Prediction: 3.455429; Error: 1.544571
-Review: 5; Prediction: 3.455429; Error: 1.544571
-Review: 5; Prediction: 3.436819; Error: 1.563181
-Review: 4; Prediction: 3.147941; Error: 0.852059
-Review: 5; Prediction: 4.059000; Error: 0.941000
-Review: 5; Prediction: 3.436591; Error: 1.563409
-Review: 5; Prediction: 4.450667; Error: 0.549333
-Review: 4; Prediction: 2.528333; Error: 1.471667
-Review: 5; Prediction: 3.342500; Error: 1.657500
-Review: 5; Prediction: 3.316191; Error: 1.683809
-Review: 5; Prediction: 2.527778; Error: 2.472222
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.479000; Error: 2.521000
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.530000; Error: 2.470000
-Review: 3; Prediction: 3.388261; Error: 0.388261
-Review: 5; Prediction: 3.129062; Error: 1.870938
-Review: 5; Prediction: 3.217142; Error: 1.782858
-Review: 3; Prediction: 3.453784; Error: 0.453784
-Review: 5; Prediction: 4.223478; Error: 0.776522
-Review: 4; Prediction: 2.478500; Error: 1.521500
-Review: 5; Prediction: 3.388261; Error: 1.611739
-Review: 5; Prediction: 3.451539; Error: 1.548461
-Review: 5; Prediction: 2.759412; Error: 2.240588
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 3.389348; Error: 1.610652
-Review: 5; Prediction: 3.108333; Error: 1.891667
-Review: 5; Prediction: 2.760000; Error: 2.240000
-Review: 5; Prediction: 3.167500; Error: 1.832500
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.581875; Error: 2.418125
-Review: 5; Prediction: 3.453784; Error: 1.546216
-Review: 4; Prediction: 3.316667; Error: 0.683333
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 5; Prediction: 2.443333; Error: 2.556667
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 4; Prediction: 2.528889; Error: 1.471111
-Review: 5; Prediction: 3.316191; Error: 1.683809
-Review: 4; Prediction: 3.029583; Error: 0.970417
-Review: 5; Prediction: 2.581875; Error: 2.418125
-Review: 5; Prediction: 2.248235; Error: 2.751765
-Review: 0; Prediction: 0.621622; Error: 0.621622
-Review: 3; Prediction: 2.485000; Error: 0.515000
-Review: 5; Prediction: 2.583125; Error: 2.416875
-Review: 5; Prediction: 3.388261; Error: 1.611739
+Reviewer Rating, Prediction, Error
+2, 3.278333, 1.278333
+5, 4.703636, 0.296364
+1, 2.480000, 1.480000
+4, 3.963182, 0.036818
+5, 4.814516, 0.185484
+5, 4.845798, 0.154202
+3, 3.455429, 0.455429
+3, 3.954211, 0.954211
+5, 4.598889, 0.401111
+3, 3.772174, 0.772174
+4, 4.059000, 0.059000
+4, 4.382500, 0.382500
+3, 3.438810, 0.438810
+3, 3.436819, 0.436819
+5, 4.703636, 0.296364
+2, 2.485000, 0.485000
+3, 3.786500, 0.786500
+3, 3.627500, 0.627500
+5, 4.312333, 0.687667
+5, 4.677164, 0.322836
+3, 3.542174, 0.542174
+5, 4.206842, 0.793158
+5, 4.057500, 0.942500
+5, 4.761759, 0.238241
+3, 3.453784, 0.453784
+3, 3.546666, 0.546666
+3, 4.056875, 1.056875
+5, 4.733666, 0.266334
+5, 4.691250, 0.308750
+5, 4.206842, 0.793158
+3, 3.786500, 0.786500
+1, 2.530000, 1.530000
+1, 2.583125, 1.583125
+5, 4.677164, 0.322836
+5, 4.832869, 0.167131
+3, 3.551579, 0.551579
+5, 4.817215, 0.182785
+4, 4.223478, 0.223478
+5, 4.823774, 0.176226
+1, 3.389348, 2.389348
+5, 4.598889, 0.401111
+4, 4.448800, 0.448800
+3, 3.456970, 0.456970
+5, 4.598889, 0.401111
+5, 4.825089, 0.174911
+5, 4.761759, 0.238241
+4, 4.504516, 0.504516
+5, 4.733666, 0.266334
+5, 4.549534, 0.450466
+5, 4.691250, 0.308750
+5, 4.677164, 0.322836
+5, 4.809659, 0.190341
+5, 4.707500, 0.292500
+5, 4.598889, 0.401111
+5, 4.761759, 0.238241
+5, 4.733666, 0.266334
+2, 3.317143, 1.317143
+5, 4.824538, 0.175462
+5, 4.833334, 0.166666
+5, 4.825999, 0.174001
+5, 4.819703, 0.180297
+1, 3.232500, 2.232500
+5, 4.707500, 0.292500
+4, 4.598889, 0.598889
+5, 4.630483, 0.369517
+5, 4.825128, 0.174872
+4, 4.450333, 0.450333
+5, 4.856725, 0.143275
+5, 4.825999, 0.174001
+5, 4.819703, 0.180297
+5, 4.809659, 0.190341
+5, 4.630483, 0.369517
+5, 4.817215, 0.182785
+5, 4.809659, 0.190341
+5, 4.825999, 0.174001
+1, 0.621622, 0.378378
+5, 4.823774, 0.176226
+5, 4.691250, 0.308750
+5, 4.809659, 0.190341
+5, 4.677164, 0.322836
+4, 4.448800, 0.448800
+5, 4.824297, 0.175703
+5, 4.312333, 0.687667
+5, 4.825128, 0.174872
+5, 4.513143, 0.486857
+5, 4.677164, 0.322836
+4, 4.057500, 0.057500
+5, 4.312333, 0.687667
+5, 4.814516, 0.185484
+4, 4.206842, 0.206842
+5, 4.622203, 0.377797
+4, 4.513143, 0.513143
+5, 4.846325, 0.153675
+5, 4.622203, 0.377797
+5, 4.677164, 0.322836
+5, 4.677164, 0.322836
+5, 4.823774, 0.176226
+4, 4.382500, 0.382500
+5, 4.513143, 0.486857
+5, 4.814516, 0.185484
+5, 4.845538, 0.154462
+4, 4.223478, 0.223478
+5, 4.832479, 0.167521
+5, 4.733666, 0.266334
+5, 4.450333, 0.549667
+5, 4.622203, 0.377797
+4, 4.450333, 0.450333
+5, 4.833334, 0.166666
+5, 4.703636, 0.296364
+5, 4.817215, 0.182785
+3, 3.458387, 0.458387
+5, 4.622203, 0.377797
+3, 3.517308, 0.517308
+2, 3.458387, 1.458387
+3, 3.514286, 0.514286
+3, 3.451539, 0.451539
+4, 4.313001, 0.313001
+5, 4.733666, 0.266334
+5, 4.733666, 0.266334
+4, 4.058333, 0.058333
+3, 3.517308, 0.517308
+4, 4.313001, 0.313001
+5, 4.448800, 0.551200
+4, 4.313001, 0.313001
+4, 3.864118, 0.135882
+3, 3.627500, 0.627500
+5, 4.703636, 0.296364
+5, 4.543659, 0.456341
+4, 4.313001, 0.313001
+5, 4.448800, 0.551200
+5, 4.450333, 0.549667
+5, 4.691250, 0.308750
+3, 3.864118, 0.864118
+4, 4.382500, 0.382500
+5, 4.733666, 0.266334
+4, 4.206842, 0.206842
+5, 4.574042, 0.425958
+3, 3.438810, 0.438810
+5, 4.543659, 0.456341
+4, 4.312333, 0.312333
+1, 2.447500, 1.447500
+4, 3.772174, 0.227826
+4, 3.963182, 0.036818
+4, 4.312333, 0.312333
+4, 4.313001, 0.313001
+5, 4.733666, 0.266334
+5, 4.504516, 0.495484
+5, 4.819703, 0.180297
+4, 4.543659, 0.543659
+5, 4.312333, 0.687667
+5, 4.574042, 0.425958
+5, 4.809659, 0.190341
+5, 4.814516, 0.185484
+5, 4.733666, 0.266334
+1, 2.964231, 1.964231
+5, 4.574042, 0.425958
+5, 4.223478, 0.776522
+5, 4.823774, 0.176226
+5, 4.543659, 0.456341
+5, 4.761759, 0.238241
+5, 4.504516, 0.495484
+5, 4.761759, 0.238241
+5, 4.809659, 0.190341
+5, 4.543659, 0.456341
+5, 4.504516, 0.495484
+5, 4.598889, 0.401111
+5, 4.630483, 0.369517
+5, 3.453513, 1.546487
+4, 3.201500, 0.798500
+5, 3.147941, 1.852059
+5, 3.388913, 1.611087
+5, 3.343000, 1.657000
+5, 3.343500, 1.656500
+5, 3.513214, 1.486786
+5, 3.456970, 1.543030
+5, 2.525556, 2.474444
+5, 3.551579, 1.448421
+5, 3.786500, 1.213500
+5, 3.343500, 1.656500
+4, 2.847500, 1.152500
+4, 3.148235, 0.851765
+5, 2.526111, 2.473889
+4, 3.129062, 0.870938
+5, 3.148235, 1.851765
+5, 3.436819, 1.563181
+5, 2.912609, 2.087391
+5, 2.366191, 2.633809
+4, 3.512500, 0.487500
+3, 3.436591, 0.436591
+4, 3.451539, 0.548461
+5, 3.201500, 1.798500
+5, 3.512143, 1.487857
+4, 2.761177, 1.238823
+5, 4.058333, 0.941667
+5, 3.278333, 1.721667
+4, 2.582500, 1.417500
+5, 3.388044, 1.611956
+5, 3.029166, 1.970834
+5, 3.438810, 1.561190
+5, 3.511786, 1.488214
+3, 3.342750, 0.342750
+5, 2.964231, 2.035769
+1, 3.389130, 2.389130
+5, 2.760000, 2.240000
+3, 4.058500, 1.058500
+5, 3.129062, 1.870938
+4, 3.551579, 0.448421
+4, 3.436591, 0.563409
+5, 3.551579, 1.448421
+5, 3.316667, 1.683333
+5, 3.388478, 1.611522
+3, 3.342500, 0.342500
+5, 3.388696, 1.611304
+4, 3.511786, 0.488214
+5, 2.964231, 2.035769
+5, 3.456970, 1.543030
+4, 3.388913, 0.611087
+1, 3.216666, 2.216666
+4, 3.388478, 0.611522
+5, 3.435682, 1.564318
+5, 3.438572, 1.561428
+3, 3.435682, 0.435682
+4, 3.436364, 0.563636
+3, 3.436819, 0.436819
+3, 3.389130, 0.389130
+5, 2.582500, 2.417500
+1, 3.148529, 2.148529
+5, 2.526666, 2.473334
+5, 3.316905, 1.683095
+5, 3.514286, 1.485714
+5, 3.232500, 1.767500
+5, 3.436364, 1.563636
+4, 3.438572, 0.561428
+5, 3.316905, 1.683095
+5, 3.201500, 1.798500
+5, 2.760000, 2.240000
+5, 3.201500, 1.798500
+5, 3.108333, 1.891667
+4, 3.388696, 0.611304
+5, 2.530000, 2.470000
+5, 3.436819, 1.563181
+4, 3.436819, 0.563181
+4, 3.278333, 0.721667
+4, 3.342750, 0.657250
+5, 3.438810, 1.561190
+4, 3.216429, 0.783571
+5, 3.317143, 1.682857
+5, 3.388696, 1.611304
+4, 2.445417, 1.554583
+3, 2.963846, 0.036154
+3, 3.059231, 0.059231
+5, 2.760588, 2.239412
+5, 2.527223, 2.472777
+4, 2.526666, 1.473334
+4, 2.367143, 1.632857
+5, 2.360952, 2.639048
+5, 2.444583, 2.555417
+3, 2.479500, 0.520500
+5, 2.758824, 2.241176
+4, 2.445417, 1.554583
+3, 3.217142, 0.217142
+5, 2.367619, 2.632381
+5, 3.216666, 1.783334
+5, 3.317143, 1.682857
+5, 2.761765, 2.238235
+5, 3.453784, 1.546216
+4, 3.108333, 0.891667
+5, 2.528333, 2.471667
+5, 3.456970, 1.543030
+5, 2.963461, 2.036539
+4, 3.342500, 0.657500
+5, 3.388913, 1.611087
+5, 3.388913, 1.611087
+5, 2.964231, 2.035769
+4, 2.583125, 1.416875
+3, 2.761765, 0.238235
+5, 3.435909, 1.564091
+5, 3.029166, 1.970834
+5, 3.435909, 1.564091
+4, 3.388044, 0.611956
+3, 3.388478, 0.388478
+3, 3.388913, 0.388913
+5, 2.847500, 2.152500
+5, 3.954211, 1.045789
+5, 3.343250, 1.656750
+5, 3.278333, 1.721667
+5, 2.760000, 2.240000
+5, 3.148529, 1.851471
+4, 3.512143, 0.487857
+5, 3.451539, 1.548461
+5, 3.436819, 1.563181
+5, 2.758824, 2.241176
+5, 3.435682, 1.564318
+3, 2.581875, 0.418125
+4, 3.435682, 0.564318
+5, 2.963461, 2.036539
+5, 2.758824, 2.241176
+5, 3.388696, 1.611304
+5, 3.388913, 1.611087
+5, 3.216666, 1.783334
+5, 3.029583, 1.970417
+4, 3.389130, 0.610870
+5, 4.447000, 0.553000
+5, 2.479000, 2.521000
+5, 3.511786, 1.488214
+5, 3.343500, 1.656500
+5, 3.513929, 1.486071
+5, 3.546666, 1.453334
+5, 4.223478, 0.776522
+5, 3.453784, 1.546216
+5, 3.216429, 1.783571
+5, 2.365714, 2.634286
+5, 2.963461, 2.036539
+5, 2.760588, 2.239412
+4, 3.388696, 0.611304
+5, 3.513929, 1.486071
+5, 3.455429, 1.544571
+5, 3.058846, 1.941154
+4, 3.343000, 0.657000
+4, 2.445833, 1.554167
+5, 3.514286, 1.485714
+4, 3.147941, 0.852059
+5, 2.581875, 2.418125
+4, 2.526666, 1.473334
+5, 3.316191, 1.683809
+5, 3.216905, 1.783095
+5, 2.963846, 2.036154
+5, 2.447083, 2.552917
+5, 3.278333, 1.721667
+5, 3.167778, 1.832222
+5, 3.512500, 1.487500
+5, 3.453784, 1.546216
+5, 2.485000, 2.515000
+5, 4.513143, 0.486857
+5, 3.389348, 1.610652
+5, 2.526111, 2.473889
+5, 3.864118, 1.135882
+5, 3.458387, 1.541613
+3, 3.436136, 0.436136
+4, 3.342750, 0.657250
+1, 2.484545, 1.484545
+3, 3.455429, 0.455429
+3, 3.342500, 0.342500
+4, 3.343500, 0.656500
+4, 3.513929, 0.486071
+3, 3.343500, 0.343500
+4, 3.435909, 0.564091
+3, 2.445833, 0.554167
+5, 3.438810, 1.561190
+3, 3.029166, 0.029166
+3, 3.388913, 0.388913
+1, 3.343500, 2.343500
+3, 3.435682, 0.435682
+4, 3.513214, 0.486786
+4, 3.201500, 0.798500
+4, 3.516923, 0.483077
+4, 3.438572, 0.561428
+3, 2.479500, 0.520500
+3, 3.201500, 0.201500
+4, 3.517308, 0.482692
+1, 3.029583, 2.029583
+5, 3.864118, 1.135882
+5, 3.147647, 1.852353
+5, 3.435682, 1.564318
+5, 3.951500, 1.048500
+5, 3.389348, 1.610652
+5, 2.761177, 2.238823
+5, 2.484545, 2.515455
+5, 2.583125, 2.416875
+3, 3.438572, 0.438572
+5, 2.912609, 2.087391
+5, 3.389348, 1.610652
+4, 2.446250, 1.553750
+5, 3.232500, 1.767500
+5, 3.458387, 1.541613
+5, 3.954211, 1.045789
+4, 4.206842, 0.206842
+5, 3.436591, 1.563409
+5, 3.388913, 1.611087
+5, 3.435909, 1.564091
+5, 3.517308, 1.482692
+4, 2.189333, 1.810667
+5, 3.388261, 1.611739
+5, 3.551579, 1.448421
+5, 3.029583, 1.970417
+5, 3.029166, 1.970834
+5, 3.512857, 1.487143
+5, 3.343250, 1.656750
+5, 3.316429, 1.683571
+5, 3.963182, 1.036818
+5, 3.786500, 1.213500
+5, 3.316667, 1.683333
+4, 3.316667, 0.683333
+5, 3.514286, 1.485714
+4, 3.343500, 0.656500
+5, 3.953684, 1.046316
+5, 3.511786, 1.488214
+3, 2.479000, 0.521000
+5, 2.125455, 2.874545
+5, 3.343000, 1.657000
+5, 2.446667, 2.553333
+5, 3.516923, 1.483077
+5, 3.388261, 1.611739
+5, 3.342500, 1.657500
+4, 3.456970, 0.543030
+5, 3.864118, 1.135882
+5, 3.108333, 1.891667
+5, 3.542174, 1.457826
+5, 3.148235, 1.851765
+4, 3.435682, 0.564318
+5, 4.504516, 0.495484
+5, 2.760588, 2.239412
+5, 3.388696, 1.611304
+5, 3.438810, 1.561190
+5, 3.147941, 1.852059
+5, 3.316429, 1.683571
+5, 3.451539, 1.548461
+5, 3.388913, 1.611087
+4, 3.148529, 0.851471
+5, 2.365714, 2.634286
+5, 3.278095, 1.721905
+4, 3.436364, 0.563636
+5, 3.517308, 1.482692
+5, 2.912609, 2.087391
+5, 3.278333, 1.721667
+1, 3.343250, 2.343250
+5, 2.363810, 2.636190
+5, 3.511786, 1.488214
+5, 3.058846, 1.941154
+5, 3.435909, 1.564091
+5, 2.248824, 2.751176
+3, 3.436819, 0.436819
+4, 3.786500, 0.213500
+5, 2.912609, 2.087391
+5, 3.147941, 1.852059
+5, 2.912609, 2.087391
+2, 3.232500, 1.232500
+5, 2.365714, 2.634286
+5, 3.512857, 1.487143
+5, 2.526111, 2.473889
+5, 3.167778, 1.832222
+5, 3.316429, 1.683571
+5, 3.059231, 1.940769
+5, 3.216905, 1.783095
+5, 3.435682, 1.564318
+4, 3.316905, 0.683095
+5, 2.361428, 2.638572
+5, 3.451539, 1.548461
+4, 3.029583, 0.970417
+5, 3.435682, 1.564318
+4, 3.058846, 0.941154
+4, 3.316905, 0.683095
+5, 3.316905, 1.683095
+5, 3.513929, 1.486071
+5, 3.148529, 1.851471
+4, 3.436591, 0.563409
+5, 3.216429, 1.783571
+5, 3.216429, 1.783571
+5, 2.912609, 2.087391
+5, 3.217142, 1.782858
+5, 3.512143, 1.487857
+5, 2.583125, 2.416875
+5, 3.453784, 1.546216
+5, 3.435909, 1.564091
+5, 3.058846, 1.941154
+5, 3.388913, 1.611087
+5, 3.316429, 1.683571
+5, 3.343000, 1.657000
+5, 2.583125, 2.416875
+5, 3.517308, 1.482692
+5, 3.148235, 1.851765
+5, 3.343500, 1.656500
+5, 2.963461, 2.036539
+4, 2.583125, 1.416875
+4, 3.147941, 0.852059
+3, 3.436364, 0.436364
+5, 3.148529, 1.851471
+4, 3.029583, 0.970417
+5, 2.479500, 2.520500
+5, 2.445833, 2.554167
+5, 3.388913, 1.611087
+5, 3.388696, 1.611304
+5, 3.129062, 1.870938
+5, 2.759412, 2.240588
+5, 3.342500, 1.657500
+5, 2.485000, 2.515000
+5, 3.058846, 1.941154
+5, 3.217142, 1.782858
+4, 3.216666, 0.783334
+4, 2.312632, 1.687368
+5, 3.388261, 1.611739
+5, 3.542174, 1.457826
+5, 2.758824, 2.241176
+5, 3.513572, 1.486428
+5, 3.148235, 1.851765
+5, 4.312333, 0.687667
+5, 3.455429, 1.544571
+5, 3.455429, 1.544571
+5, 3.436819, 1.563181
+4, 3.147941, 0.852059
+5, 4.059000, 0.941000
+5, 3.436591, 1.563409
+5, 4.450667, 0.549333
+4, 2.528333, 1.471667
+5, 3.342500, 1.657500
+5, 3.316191, 1.683809
+5, 2.527778, 2.472222
+5, 2.479000, 2.521000
+5, 2.530000, 2.470000
+3, 3.388261, 0.388261
+5, 3.129062, 1.870938
+5, 3.217142, 1.782858
+3, 3.453784, 0.453784
+5, 4.223478, 0.776522
+4, 2.478500, 1.521500
+5, 3.388261, 1.611739
+5, 3.451539, 1.548461
+5, 2.759412, 2.240588
+5, 3.389348, 1.610652
+5, 3.108333, 1.891667
+5, 2.760000, 2.240000
+5, 3.167500, 1.832500
+5, 2.581875, 2.418125
+5, 3.453784, 1.546216
+4, 3.316667, 0.683333
+5, 2.443333, 2.556667
+4, 2.528889, 1.471111
+5, 3.316191, 1.683809
+4, 3.029583, 0.970417
+5, 2.581875, 2.418125
+5, 2.248235, 2.751765
+3, 2.485000, 0.515000
+5, 2.583125, 2.416875
+5, 3.388261, 1.611739

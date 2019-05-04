@@ -1,3 +1,4 @@
+#include <math.h>
 #include "parser.h"
 
 #define MAXLINELENGTH 1024
@@ -18,7 +19,7 @@ const char* const stopwords[] = {"ME", "MY", "MYSELF", "WE", "OUR", "OURS", "OUR
 "NO", "NOR", "NOT", "ONLY", "OWN", "SAME", "SO", "THAN", "TOO", "VERY", "CAN",
 "JUST", "SHOULD", "NOW"};
 float deviation = 0; // deviation squared sum
-int predictions; // number of predictions made
+int predictions = 0; // number of predictions made
 
 float rulePrediction(int pos, int neg) {
     if (pos - neg > 1) {
@@ -77,7 +78,7 @@ void parseReview(char line[], char results[]) {
         } else if (RESULTS == 1) {
             fprintf(output, "%f, %f, %f, %d, %f\n", pos, neg, pred, stars, error);
         }
-        deviation += (error * error);
+        deviation += fabsf(error);
         predictions++;
     } // else {
     //     printf("There was not enough data for our algorithm.\n");
@@ -103,6 +104,6 @@ void getReviews(char reviews[], char results[], int max) {
         ctr++;
     }
 
-    printf("The standard error for predictions was %f\n", (deviation/predictions));
+    printf("The average margin of error for predictions was %f\n", (deviation/predictions));
 
 }
